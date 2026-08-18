@@ -12,7 +12,8 @@
     "validate": "tsx packages/data/src/validate.ts",
     "test": "vitest run",
     "typecheck": "tsc --noEmit -p tsconfig.json",
-    "sim": "tsx apps/cli/src/index.ts"
+    "sim": "tsx apps/cli/src/index.ts",
+    "web": "npm run dev --workspace=@axsim/web"
   },
   "devDependencies": {
     "@types/node": "^22.10.0",

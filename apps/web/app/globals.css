@@ -1,0 +1,112 @@
+:root {
+  --bg: #0b0d10;
+  --surface: #14171c;
+  --surface-2: #1b1f26;
+  --border: #262b33;
+  --text: #e8eaed;
+  --text-dim: #9aa1ab;
+  --text-faint: #6b7280;
+  --accent: #5b9dff;
+  --accent-dim: #2b3d5c;
+  --good: #0ca30c;
+  --bad: #d03b3b;
+  --warn: #fab219;
+
+  /* dataviz 검증 팔레트 (다크 — 이 :root 블록 자체가 다크 기본값이다) */
+  --chart-surface: #1a1a19;
+  --chart-ink: #ffffff;
+  --chart-ink-secondary: #c3c2b7;
+  --chart-ink-muted: #898781;
+  --chart-grid: #2c2c2a;
+  --chart-axis: #383835;
+  --series-1: #3987e5;
+  --series-2: #d95926;
+  --series-3: #199e70;
+  --series-4: #c98500;
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "Malgun Gothic", "Apple SD Gothic Neo", sans-serif;
+  --font-mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg: #f7f8fa;
+    --surface: #ffffff;
+    --surface-2: #f0f1f3;
+    --border: #dde1e6;
+    --text: #14171c;
+    --text-dim: #565d68;
+    --text-faint: #8a9099;
+    --accent: #2563eb;
+    --accent-dim: #dbe6ff;
+    --good: #0ca30c;
+    --bad: #d03b3b;
+    --warn: #fab219;
+
+    --chart-surface: #fcfcfb;
+    --chart-ink: #0b0b0b;
+    --chart-ink-secondary: #52514e;
+    --chart-ink-muted: #898781;
+    --chart-grid: #e1e0d9;
+    --chart-axis: #c3c2b7;
+    --series-1: #2a78d6;
+    --series-2: #eb6834;
+    --series-3: #1baf7a;
+    --series-4: #eda100;
+  }
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  padding: 0;
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+}
+
+body {
+  min-height: 100vh;
+}
+
+a { color: inherit; }
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.mono { font-family: var(--font-mono); }
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 24px 32px 80px;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 16px 18px;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+@media (max-width: 1100px) {
+  .grid-3 { grid-template-columns: 1fr; }
+  .container { padding: 16px; }
+}
+
+.overflow-x {
+  overflow-x: auto;
+}

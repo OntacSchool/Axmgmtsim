@@ -16,3 +16,4 @@ export * from './reduce.ts';
 export * from './replay.ts';
 export * from './strategies.ts';
 export * from './counterfactual.ts';
+export * from './variants.ts';

@@ -29,14 +29,32 @@ export function parseDataset() {
   return datasetSchema.safeParse(raw);
 }
 
-/** 검증된 데이터셋. 스키마를 통과하지 못하면 즉시 실패한다. */
-export function loadDataset(): Dataset {
-  const result = parseDataset();
+/**
+ * 이미 로드된 원시 객체를 검증해 Dataset 으로 만든다.
+ *
+ * 번들러 환경(Next.js 등)에서는 `import ... with { type: 'json' }` 이 항상 지원되지
+ * 않으므로, 호출부가 자기 방식으로 JSON 을 import 한 뒤 이 함수로 검증만 받는다.
+ */
+export function parseDatasetFrom(raw: unknown) {
+  return datasetSchema.safeParse(raw);
+}
+
+function finalize(result: ReturnType<typeof datasetSchema.safeParse>): Dataset {
   if (!result.success) {
     const issues = result.error.issues.map((i) => `  - ${i.path.join('.')}: ${i.message}`).join('\n');
     throw new Error(`시드 데이터 검증 실패:\n${issues}`);
   }
   return result.data as unknown as Dataset;
+}
+
+/** 검증된 데이터셋. 스키마를 통과하지 못하면 즉시 실패한다. (CLI 등 Node ESM 환경용) */
+export function loadDataset(): Dataset {
+  return finalize(parseDataset());
+}
+
+/** 원시 객체로부터 검증된 데이터셋을 만든다. 실패하면 즉시 던진다. (번들러 환경용) */
+export function loadDatasetFrom(raw: unknown): Dataset {
+  return finalize(parseDatasetFrom(raw));
 }
 
 export * from './schemas/index.ts';

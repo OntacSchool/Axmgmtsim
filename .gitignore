@@ -6,3 +6,5 @@ out/
 .env
 .env.local
 coverage/
+.next/
+next-env.d.ts

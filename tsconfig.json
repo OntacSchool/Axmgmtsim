@@ -20,5 +20,5 @@
       "@axsim/data/*": ["packages/data/src/*"]
     }
   },
-  "include": ["packages/**/*.ts", "apps/**/*.ts"]
+  "include": ["packages/**/*.ts", "apps/cli/**/*.ts"]
 }

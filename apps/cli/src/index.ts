@@ -10,13 +10,7 @@
 
 import { writeFileSync } from 'node:fs';
 import { loadDataset } from '@axsim/data';
-import {
-  GRADES,
-  STRATEGY_PRESETS,
-  canAcquire,
-  targetsAvailable,
-  type Decision,
-} from '@axsim/engine';
+import { STRATEGY_PRESETS, buildVariants } from '@axsim/engine';
 import { printAuto, runAuto, toCsv } from './auto.ts';
 import { buildSnapshot, printCompare, runCompare } from './compare.ts';
 import { runPlay } from './play.ts';
@@ -154,57 +148,6 @@ async function main(): Promise<void> {
 
   console.log(USAGE);
   process.exit(1);
-}
-
-/**
- * 비교 시점에서 실제로 가능한 선택지들을 자동 구성한다.
- * 기본 대조군은 "자체 성장"(아무 특별한 수를 두지 않고 전략대로) 이다.
- */
-function buildVariants(
-  dataset: ReturnType<typeof loadDataset>,
-  snapshot: ReturnType<typeof buildSnapshot>,
-): { label: string; decisions: Decision[] }[] {
-  const variants: { label: string; decisions: Decision[] }[] = [
-    { label: '자체 성장 (이번 분기에 특별한 수 없음)', decisions: [] },
-  ];
-
-  // 실제로 실행 가능한 선택지만 비교한다. 자격 미달인 수를 넣으면 엔진이
-  // 조용히 무시해 세 변형이 전부 같은 결과로 나온다.
-  const owned = new Set(snapshot.acquisitions.map((a) => a.targetId));
-  const acquirable = targetsAvailable(dataset, snapshot.period)
-    .filter((t) => !owned.has(t.id))
-    .map((t) => {
-      const financing = (['cash', 'mixed', 'debt'] as const).find((f) => canAcquire(snapshot, t, f).ok);
-      return financing ? { target: t, financing } : null;
-    })
-    .filter((c): c is NonNullable<typeof c> => c !== null)
-    .sort((a, b) => b.target.priceKRW - a.target.priceKRW);
-
-  const pick = acquirable[0];
-  if (pick) {
-    const label = { cash: '전액 현금', mixed: '절반 차입', debt: '전액 차입' }[pick.financing];
-    variants.push({
-      label: `인수: ${pick.target.name} (${eok(pick.target.priceKRW, 0)}, ${label})`,
-      decisions: [{ type: 'acquire', targetId: pick.target.id, financing: pick.financing }],
-    });
-  }
-
-  // "회사를 사는 것" 과 "사람만 뽑는 것" 을 같은 규모로 붙여 본다.
-  // 인원 수는 같지만 실적·자격·관계자본이 따라오지 않는다는 점이 그대로 드러난다.
-  if (pick) {
-    const brought = GRADES.reduce((sum, g) => sum + (pick.target.brings.headcount[g] ?? 0), 0);
-    const mid = Math.round(brought * 0.6);
-    const junior = brought - mid;
-    variants.push({
-      label: `자체 증원: 같은 규모 ${brought}명 채용 (실적·자격 없음)`,
-      decisions: [
-        { type: 'recruit', grade: 'mid', count: mid },
-        { type: 'recruit', grade: 'junior', count: junior },
-      ],
-    });
-  }
-
-  return variants;
 }
 
 main().catch((error: unknown) => {
