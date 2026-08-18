@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "lib": ["ES2022"],
+    "strict": true,
+    "noUncheckedIndexedAccess": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "types": ["node"],
+    "baseUrl": ".",
+    "paths": {
+      "@axsim/engine": ["packages/engine/src/index.ts"],
+      "@axsim/engine/*": ["packages/engine/src/*"],
+      "@axsim/data": ["packages/data/src/index.ts"],
+      "@axsim/data/*": ["packages/data/src/*"]
+    }
+  },
+  "include": ["packages/**/*.ts", "apps/**/*.ts"]
+}

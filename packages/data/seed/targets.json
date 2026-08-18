@@ -1,0 +1,469 @@
+[
+  {
+    "id": "MNA-EDU-01",
+    "name": "공공 교육SI 전문 A사",
+    "availableFrom": "2021Q1",
+    "priceKRW": 7200000000,
+    "brings": {
+      "annualRevenueKRW": 1600000000,
+      "headcount": {
+        "principal": 2,
+        "senior": 5,
+        "mid": 9,
+        "junior": 6
+      },
+      "certs": [
+        "swBusinessCert",
+        "isms"
+      ],
+      "trackRecords": [
+        {
+          "domain": "edu",
+          "segment": "public",
+          "amountKRW": 1800000000,
+          "agency": "한국교육학술정보원",
+          "quality": 0.72
+        },
+        {
+          "domain": "edu",
+          "segment": "public",
+          "amountKRW": 900000000,
+          "agency": "서울특별시교육청",
+          "quality": 0.68
+        },
+        {
+          "domain": "si",
+          "segment": "public",
+          "amountKRW": 1400000000,
+          "agency": "한국산업인력공단",
+          "quality": 0.7
+        },
+        {
+          "domain": "edu",
+          "segment": "public",
+          "amountKRW": 600000000,
+          "agency": "국가평생교육진흥원",
+          "quality": 0.66
+        }
+      ],
+      "channel": {
+        "public": 58
+      },
+      "capability": {
+        "edu": 62,
+        "si": 55
+      },
+      "relations": {
+        "한국교육학술정보원": 45,
+        "서울특별시교육청": 40,
+        "한국산업인력공단": 35
+      },
+      "products": [
+        "P-LMS"
+      ],
+      "customers": 12
+    },
+    "pmi": {
+      "integrationQuarters": 3,
+      "attrition": 0.18,
+      "cultureFit": 0.65,
+      "costRate": 0.15
+    }
+  },
+  {
+    "id": "MNA-DATA-01",
+    "name": "데이터 구축·라벨링 전문 B사",
+    "availableFrom": "2021Q3",
+    "priceKRW": 4500000000,
+    "brings": {
+      "annualRevenueKRW": 1200000000,
+      "headcount": {
+        "principal": 1,
+        "senior": 3,
+        "mid": 8,
+        "junior": 12
+      },
+      "certs": [
+        "swBusinessCert"
+      ],
+      "trackRecords": [
+        {
+          "domain": "data",
+          "segment": "public",
+          "amountKRW": 2200000000,
+          "agency": "한국지능정보사회진흥원",
+          "quality": 0.7
+        },
+        {
+          "domain": "data",
+          "segment": "public",
+          "amountKRW": 1100000000,
+          "agency": "한국데이터산업진흥원",
+          "quality": 0.65
+        }
+      ],
+      "channel": {
+        "public": 38
+      },
+      "capability": {
+        "data": 68
+      },
+      "relations": {
+        "한국지능정보사회진흥원": 42,
+        "한국데이터산업진흥원": 38
+      },
+      "products": [
+        "P-DATAOPS"
+      ],
+      "customers": 8
+    },
+    "pmi": {
+      "integrationQuarters": 2,
+      "attrition": 0.22,
+      "cultureFit": 0.6,
+      "costRate": 0.12
+    }
+  },
+  {
+    "id": "MNA-ENT-01",
+    "name": "대기업 교육 아웃소싱 C사",
+    "availableFrom": "2022Q2",
+    "priceKRW": 9900000000,
+    "brings": {
+      "annualRevenueKRW": 2700000000,
+      "headcount": {
+        "principal": 2,
+        "senior": 6,
+        "mid": 12,
+        "junior": 8
+      },
+      "certs": [
+        "swBusinessCert"
+      ],
+      "trackRecords": [
+        {
+          "domain": "edu",
+          "segment": "enterprise",
+          "amountKRW": 2600000000,
+          "agency": "국내 대형 제조사 A",
+          "quality": 0.74
+        },
+        {
+          "domain": "edu",
+          "segment": "enterprise",
+          "amountKRW": 1900000000,
+          "agency": "금융지주 B",
+          "quality": 0.71
+        }
+      ],
+      "channel": {
+        "enterprise": 66,
+        "smb": 30
+      },
+      "capability": {
+        "edu": 58
+      },
+      "relations": {
+        "국내 대형 제조사 A": 50,
+        "금융지주 B": 45
+      },
+      "vendorRegistrations": [
+        "제조사A-벤더",
+        "금융지주B-벤더"
+      ],
+      "products": [],
+      "customers": 22
+    },
+    "pmi": {
+      "integrationQuarters": 3,
+      "attrition": 0.2,
+      "cultureFit": 0.55,
+      "costRate": 0.15
+    }
+  },
+  {
+    "id": "MNA-AI-01",
+    "name": "AI 스타트업 D사",
+    "availableFrom": "2023Q1",
+    "priceKRW": 6100000000,
+    "brings": {
+      "annualRevenueKRW": 450000000,
+      "headcount": {
+        "principal": 2,
+        "senior": 4,
+        "mid": 5,
+        "junior": 3
+      },
+      "certs": [],
+      "trackRecords": [
+        {
+          "domain": "ai",
+          "segment": "smb",
+          "amountKRW": 400000000,
+          "agency": "중소벤처기업진흥공단",
+          "quality": 0.6
+        }
+      ],
+      "channel": {
+        "smb": 32
+      },
+      "capability": {
+        "ai": 78,
+        "data": 55
+      },
+      "products": [
+        "P-AITUTOR"
+      ],
+      "customers": 5
+    },
+    "pmi": {
+      "integrationQuarters": 3,
+      "attrition": 0.32,
+      "cultureFit": 0.42,
+      "costRate": 0.1
+    }
+  },
+  {
+    "id": "MNA-CLOUD-01",
+    "name": "클라우드 MSP E사",
+    "availableFrom": "2023Q3",
+    "priceKRW": 8300000000,
+    "brings": {
+      "annualRevenueKRW": 2300000000,
+      "headcount": {
+        "principal": 2,
+        "senior": 6,
+        "mid": 10,
+        "junior": 5
+      },
+      "certs": [
+        "isms",
+        "iso27001"
+      ],
+      "trackRecords": [
+        {
+          "domain": "cloud",
+          "segment": "public",
+          "amountKRW": 2800000000,
+          "agency": "한국지능정보사회진흥원",
+          "quality": 0.75
+        },
+        {
+          "domain": "cloud",
+          "segment": "enterprise",
+          "amountKRW": 1700000000,
+          "agency": "금융지주 B",
+          "quality": 0.72
+        }
+      ],
+      "channel": {
+        "public": 42,
+        "enterprise": 48
+      },
+      "capability": {
+        "cloud": 74,
+        "si": 52
+      },
+      "relations": {
+        "한국지능정보사회진흥원": 38,
+        "금융지주 B": 35
+      },
+      "products": [],
+      "customers": 16
+    },
+    "pmi": {
+      "integrationQuarters": 3,
+      "attrition": 0.18,
+      "cultureFit": 0.68,
+      "costRate": 0.13
+    }
+  },
+  {
+    "id": "MNA-GLB-01",
+    "name": "동남아 EdTech F사",
+    "availableFrom": "2024Q2",
+    "priceKRW": 11200000000,
+    "brings": {
+      "annualRevenueKRW": 2100000000,
+      "headcount": {
+        "principal": 1,
+        "senior": 5,
+        "mid": 12,
+        "junior": 14
+      },
+      "certs": [
+        "iso27001"
+      ],
+      "trackRecords": [
+        {
+          "domain": "edu",
+          "segment": "global",
+          "amountKRW": 2400000000,
+          "agency": "아시아개발은행",
+          "quality": 0.66
+        },
+        {
+          "domain": "edu",
+          "segment": "global",
+          "amountKRW": 1600000000,
+          "agency": "한국국제협력단",
+          "quality": 0.64
+        }
+      ],
+      "channel": {
+        "global": 72
+      },
+      "capability": {
+        "edu": 60,
+        "cloud": 48
+      },
+      "relations": {
+        "아시아개발은행": 48,
+        "한국국제협력단": 42
+      },
+      "vendorRegistrations": [
+        "글로벌파트너십"
+      ],
+      "products": [],
+      "customers": 30
+    },
+    "pmi": {
+      "integrationQuarters": 4,
+      "attrition": 0.28,
+      "cultureFit": 0.4,
+      "costRate": 0.18
+    }
+  },
+  {
+    "id": "MNA-SI-01",
+    "name": "중견 SI G사",
+    "availableFrom": "2024Q4",
+    "priceKRW": 15200000000,
+    "brings": {
+      "annualRevenueKRW": 4900000000,
+      "headcount": {
+        "principal": 4,
+        "senior": 12,
+        "mid": 22,
+        "junior": 14
+      },
+      "certs": [
+        "swBusinessCert",
+        "isms",
+        "cmmi"
+      ],
+      "trackRecords": [
+        {
+          "domain": "si",
+          "segment": "public",
+          "amountKRW": 5200000000,
+          "agency": "과학기술정보통신부",
+          "quality": 0.73
+        },
+        {
+          "domain": "si",
+          "segment": "public",
+          "amountKRW": 3800000000,
+          "agency": "한국지능정보사회진흥원",
+          "quality": 0.7
+        },
+        {
+          "domain": "data",
+          "segment": "public",
+          "amountKRW": 2600000000,
+          "agency": "한국고용정보원",
+          "quality": 0.69
+        },
+        {
+          "domain": "si",
+          "segment": "enterprise",
+          "amountKRW": 2100000000,
+          "agency": "국내 대형 제조사 A",
+          "quality": 0.71
+        }
+      ],
+      "channel": {
+        "public": 64,
+        "enterprise": 52
+      },
+      "capability": {
+        "si": 72,
+        "cloud": 55,
+        "data": 50
+      },
+      "relations": {
+        "과학기술정보통신부": 46,
+        "한국지능정보사회진흥원": 44
+      },
+      "vendorRegistrations": [
+        "제조사A-벤더"
+      ],
+      "products": [],
+      "customers": 18
+    },
+    "pmi": {
+      "integrationQuarters": 4,
+      "attrition": 0.16,
+      "cultureFit": 0.62,
+      "costRate": 0.16
+    }
+  },
+  {
+    "id": "MNA-AX-01",
+    "name": "AX 컨설팅 H사",
+    "availableFrom": "2025Q3",
+    "priceKRW": 9300000000,
+    "brings": {
+      "annualRevenueKRW": 1950000000,
+      "headcount": {
+        "principal": 3,
+        "senior": 7,
+        "mid": 6,
+        "junior": 2
+      },
+      "certs": [
+        "iso27001"
+      ],
+      "trackRecords": [
+        {
+          "domain": "ai",
+          "segment": "enterprise",
+          "amountKRW": 2200000000,
+          "agency": "금융지주 B",
+          "quality": 0.76
+        },
+        {
+          "domain": "ai",
+          "segment": "enterprise",
+          "amountKRW": 1500000000,
+          "agency": "국내 대형 제조사 A",
+          "quality": 0.73
+        }
+      ],
+      "channel": {
+        "enterprise": 58
+      },
+      "capability": {
+        "ai": 72,
+        "data": 58
+      },
+      "relations": {
+        "금융지주 B": 40,
+        "국내 대형 제조사 A": 38
+      },
+      "vendorRegistrations": [
+        "금융지주B-벤더"
+      ],
+      "products": [
+        "P-AXCOPILOT"
+      ],
+      "customers": 18
+    },
+    "pmi": {
+      "integrationQuarters": 3,
+      "attrition": 0.24,
+      "cultureFit": 0.5,
+      "costRate": 0.14
+    }
+  }
+]

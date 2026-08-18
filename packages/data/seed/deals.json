@@ -1,0 +1,5456 @@
+[
+  {
+    "id": "PUB-2020Q1-01",
+    "period": "2020Q1",
+    "segment": "public",
+    "agency": "한국교육학술정보원",
+    "title": "원격수업 지원 플랫폼 구축",
+    "budgetKRW": 1400000000,
+    "durationQuarters": 3,
+    "domain": [
+      "edu",
+      "si"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert"
+      ],
+      "minTrackRecords": {
+        "domain": "edu",
+        "count": 1,
+        "minAmountKRW": 280000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 1,
+        "mid": 2,
+        "junior": 2
+      }
+    },
+    "scoring": {
+      "tech": 90,
+      "price": 10
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.429
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "PUB-2020Q1-03",
+    "period": "2020Q1",
+    "segment": "public",
+    "agency": "한국산업인력공단",
+    "title": "직업훈련포털 운영·유지관리",
+    "budgetKRW": 500000000,
+    "durationQuarters": 4,
+    "domain": [
+      "si",
+      "edu"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert"
+      ],
+      "minTrackRecords": {
+        "domain": "si",
+        "count": 1,
+        "minAmountKRW": 100000000
+      },
+      "staffMix": {
+        "mid": 1
+      }
+    },
+    "scoring": {
+      "tech": 80,
+      "price": 20
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.378
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "SMB-2020Q1-02",
+    "period": "2020Q1",
+    "segment": "smb",
+    "agency": "중소벤처기업진흥공단",
+    "title": "중소기업 스마트 직무교육 지원",
+    "budgetKRW": 400000000,
+    "durationQuarters": 2,
+    "domain": [
+      "edu"
+    ],
+    "requirements": {
+      "mandatoryCerts": [],
+      "minTrackRecords": null,
+      "staffMix": {
+        "senior": 1,
+        "mid": 1,
+        "junior": 1
+      }
+    },
+    "scoring": {
+      "tech": 60,
+      "price": 40
+    },
+    "techWeights": {
+      "실적": 15,
+      "인력": 20,
+      "기술능력": 40,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 5,
+      "strength": 0.372
+    },
+    "incumbentAdvantage": 0.1
+  },
+  {
+    "id": "ENT-2020Q2-04",
+    "period": "2020Q2",
+    "segment": "enterprise",
+    "agency": "국내 대형 제조사 A",
+    "title": "스마트팩토리 데이터 분석 체계 구축",
+    "budgetKRW": 1600000000,
+    "durationQuarters": 3,
+    "domain": [
+      "data",
+      "si"
+    ],
+    "requirements": {
+      "mandatoryCerts": [],
+      "minTrackRecords": {
+        "domain": "data",
+        "count": 2,
+        "minAmountKRW": 240000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 2,
+        "mid": 3,
+        "junior": 2
+      },
+      "vendorRegistration": "제조사A-벤더"
+    },
+    "scoring": {
+      "tech": 70,
+      "price": 30
+    },
+    "techWeights": {
+      "실적": 20,
+      "인력": 25,
+      "기술능력": 35,
+      "관리방법": 15,
+      "상생": 5
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.44
+    },
+    "incumbentAdvantage": 0.1
+  },
+  {
+    "id": "PUB-2020Q2-01",
+    "period": "2020Q2",
+    "segment": "public",
+    "agency": "한국지능정보사회진흥원",
+    "title": "AI 학습용 데이터 구축 — 교육 분야",
+    "budgetKRW": 2200000000,
+    "durationQuarters": 3,
+    "domain": [
+      "ai",
+      "data"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert"
+      ],
+      "minTrackRecords": {
+        "domain": "ai",
+        "count": 2,
+        "minAmountKRW": 330000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 2,
+        "mid": 4,
+        "junior": 3
+      }
+    },
+    "scoring": {
+      "tech": 90,
+      "price": 10
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.474
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "PUB-2020Q2-02",
+    "period": "2020Q2",
+    "segment": "public",
+    "agency": "정보통신산업진흥원",
+    "title": "AI 바우처 공급기업 풀 구축",
+    "budgetKRW": 600000000,
+    "durationQuarters": 2,
+    "domain": [
+      "ai"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert"
+      ],
+      "minTrackRecords": {
+        "domain": "ai",
+        "count": 1,
+        "minAmountKRW": 120000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 1,
+        "mid": 2,
+        "junior": 1
+      }
+    },
+    "scoring": {
+      "tech": 80,
+      "price": 20
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.384
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "SMB-2020Q2-03",
+    "period": "2020Q2",
+    "segment": "smb",
+    "agency": "중소기업중앙회",
+    "title": "중소기업 재직자 온라인 교육 운영",
+    "budgetKRW": 300000000,
+    "durationQuarters": 2,
+    "domain": [
+      "edu"
+    ],
+    "requirements": {
+      "mandatoryCerts": [],
+      "minTrackRecords": null,
+      "staffMix": {
+        "mid": 1,
+        "junior": 1
+      }
+    },
+    "scoring": {
+      "tech": 60,
+      "price": 40
+    },
+    "techWeights": {
+      "실적": 15,
+      "인력": 20,
+      "기술능력": 40,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 5,
+      "strength": 0.367
+    },
+    "incumbentAdvantage": 0.1
+  },
+  {
+    "id": "ENT-2020Q3-02",
+    "period": "2020Q3",
+    "segment": "enterprise",
+    "agency": "국내 대형 제조사 A",
+    "title": "사내 데이터 리터러시 교육 체계 구축",
+    "budgetKRW": 800000000,
+    "durationQuarters": 2,
+    "domain": [
+      "edu",
+      "data"
+    ],
+    "requirements": {
+      "mandatoryCerts": [],
+      "minTrackRecords": {
+        "domain": "edu",
+        "count": 1,
+        "minAmountKRW": 160000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 1,
+        "mid": 2,
+        "junior": 1
+      },
+      "vendorRegistration": "제조사A-벤더"
+    },
+    "scoring": {
+      "tech": 70,
+      "price": 30
+    },
+    "techWeights": {
+      "실적": 20,
+      "인력": 25,
+      "기술능력": 35,
+      "관리방법": 15,
+      "상생": 5
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.395
+    },
+    "incumbentAdvantage": 0.1
+  },
+  {
+    "id": "PUB-2020Q3-01",
+    "period": "2020Q3",
+    "segment": "public",
+    "agency": "한국산업인력공단",
+    "title": "디지털 직업훈련 플랫폼 고도화",
+    "budgetKRW": 1800000000,
+    "durationQuarters": 4,
+    "domain": [
+      "edu",
+      "si"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert"
+      ],
+      "minTrackRecords": {
+        "domain": "edu",
+        "count": 2,
+        "minAmountKRW": 270000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 1,
+        "mid": 2,
+        "junior": 2
+      }
+    },
+    "scoring": {
+      "tech": 90,
+      "price": 10
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.451
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "PUB-2020Q3-03",
+    "period": "2020Q3",
+    "segment": "public",
+    "agency": "국가평생교육진흥원",
+    "title": "평생학습 콘텐츠 품질관리",
+    "budgetKRW": 400000000,
+    "durationQuarters": 3,
+    "domain": [
+      "edu"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert"
+      ],
+      "minTrackRecords": null,
+      "staffMix": {
+        "mid": 1
+      }
+    },
+    "scoring": {
+      "tech": 80,
+      "price": 20
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 5,
+      "strength": 0.372
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "ENT-2020Q4-04",
+    "period": "2020Q4",
+    "segment": "enterprise",
+    "agency": "금융지주 B",
+    "title": "디지털 인재 아카데미 구축",
+    "budgetKRW": 1200000000,
+    "durationQuarters": 3,
+    "domain": [
+      "edu"
+    ],
+    "requirements": {
+      "mandatoryCerts": [],
+      "minTrackRecords": {
+        "domain": "edu",
+        "count": 1,
+        "minAmountKRW": 240000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 1,
+        "mid": 2,
+        "junior": 1
+      },
+      "vendorRegistration": "금융지주B-벤더"
+    },
+    "scoring": {
+      "tech": 70,
+      "price": 30
+    },
+    "techWeights": {
+      "실적": 20,
+      "인력": 25,
+      "기술능력": 35,
+      "관리방법": 15,
+      "상생": 5
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.417
+    },
+    "incumbentAdvantage": 0.1
+  },
+  {
+    "id": "PUB-2020Q4-01",
+    "period": "2020Q4",
+    "segment": "public",
+    "agency": "과학기술정보통신부",
+    "title": "K-디지털 트레이닝 훈련과정 운영",
+    "budgetKRW": 3000000000,
+    "durationQuarters": 4,
+    "domain": [
+      "edu",
+      "ai"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert",
+        "isms"
+      ],
+      "minTrackRecords": {
+        "domain": "edu",
+        "count": 2,
+        "minAmountKRW": 450000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 2,
+        "mid": 4,
+        "junior": 3
+      }
+    },
+    "scoring": {
+      "tech": 90,
+      "price": 10
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.519
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "PUB-2020Q4-02",
+    "period": "2020Q4",
+    "segment": "public",
+    "agency": "서울특별시교육청",
+    "title": "온라인 학습관리시스템 유지관리",
+    "budgetKRW": 900000000,
+    "durationQuarters": 4,
+    "domain": [
+      "edu",
+      "si"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert"
+      ],
+      "minTrackRecords": {
+        "domain": "edu",
+        "count": 1,
+        "minAmountKRW": 180000000
+      },
+      "staffMix": {
+        "senior": 1,
+        "mid": 1,
+        "junior": 1
+      }
+    },
+    "scoring": {
+      "tech": 80,
+      "price": 20
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.401
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "SMB-2020Q4-03",
+    "period": "2020Q4",
+    "segment": "smb",
+    "agency": "소상공인시장진흥공단",
+    "title": "소상공인 온라인 교육 운영",
+    "budgetKRW": 300000000,
+    "durationQuarters": 2,
+    "domain": [
+      "edu"
+    ],
+    "requirements": {
+      "mandatoryCerts": [],
+      "minTrackRecords": null,
+      "staffMix": {
+        "mid": 1,
+        "junior": 1
+      }
+    },
+    "scoring": {
+      "tech": 60,
+      "price": 40
+    },
+    "techWeights": {
+      "실적": 15,
+      "인력": 20,
+      "기술능력": 40,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 5,
+      "strength": 0.367
+    },
+    "incumbentAdvantage": 0.1
+  },
+  {
+    "id": "ENT-2021Q1-05",
+    "period": "2021Q1",
+    "segment": "enterprise",
+    "agency": "국내 대형 제조사 A",
+    "title": "생산 품질 AI 예측 PoC",
+    "budgetKRW": 1400000000,
+    "durationQuarters": 2,
+    "domain": [
+      "ai",
+      "data"
+    ],
+    "requirements": {
+      "mandatoryCerts": [],
+      "minTrackRecords": {
+        "domain": "ai",
+        "count": 1,
+        "minAmountKRW": 280000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 2,
+        "mid": 4,
+        "junior": 2
+      },
+      "vendorRegistration": "제조사A-벤더"
+    },
+    "scoring": {
+      "tech": 70,
+      "price": 30
+    },
+    "techWeights": {
+      "실적": 20,
+      "인력": 25,
+      "기술능력": 35,
+      "관리방법": 15,
+      "상생": 5
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.429
+    },
+    "incumbentAdvantage": 0.1
+  },
+  {
+    "id": "PUB-2021Q1-01",
+    "period": "2021Q1",
+    "segment": "public",
+    "agency": "한국지능정보사회진흥원",
+    "title": "데이터댐 구축 — 데이터 라벨링 사업",
+    "budgetKRW": 4500000000,
+    "durationQuarters": 4,
+    "domain": [
+      "data",
+      "ai"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert",
+        "isms"
+      ],
+      "minTrackRecords": {
+        "domain": "data",
+        "count": 3,
+        "minAmountKRW": 540000000
+      },
+      "staffMix": {
+        "principal": 2,
+        "senior": 4,
+        "mid": 6,
+        "junior": 4
+      }
+    },
+    "scoring": {
+      "tech": 90,
+      "price": 10
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.603
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "PUB-2021Q1-03",
+    "period": "2021Q1",
+    "segment": "public",
+    "agency": "서울특별시교육청",
+    "title": "학교 원격수업 지원 헬프데스크",
+    "budgetKRW": 600000000,
+    "durationQuarters": 4,
+    "domain": [
+      "si",
+      "edu"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert"
+      ],
+      "minTrackRecords": {
+        "domain": "si",
+        "count": 1,
+        "minAmountKRW": 120000000
+      },
+      "staffMix": {
+        "mid": 1,
+        "junior": 1
+      }
+    },
+    "scoring": {
+      "tech": 80,
+      "price": 20
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.384
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "PUB-2021Q1-04",
+    "period": "2021Q1",
+    "segment": "public",
+    "agency": "한국데이터산업진흥원",
+    "title": "데이터 바우처 수행기관 운영",
+    "budgetKRW": 900000000,
+    "durationQuarters": 3,
+    "domain": [
+      "data"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert"
+      ],
+      "minTrackRecords": {
+        "domain": "data",
+        "count": 1,
+        "minAmountKRW": 180000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 1,
+        "mid": 2,
+        "junior": 1
+      }
+    },
+    "scoring": {
+      "tech": 80,
+      "price": 20
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.401
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "SMB-2021Q1-02",
+    "period": "2021Q1",
+    "segment": "smb",
+    "agency": "중소기업중앙회",
+    "title": "중소기업 디지털 전환 교육",
+    "budgetKRW": 500000000,
+    "durationQuarters": 2,
+    "domain": [
+      "edu"
+    ],
+    "requirements": {
+      "mandatoryCerts": [],
+      "minTrackRecords": {
+        "domain": "edu",
+        "count": 1,
+        "minAmountKRW": 100000000
+      },
+      "staffMix": {
+        "senior": 1,
+        "mid": 1,
+        "junior": 1
+      }
+    },
+    "scoring": {
+      "tech": 60,
+      "price": 40
+    },
+    "techWeights": {
+      "실적": 15,
+      "인력": 20,
+      "기술능력": 40,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.378
+    },
+    "incumbentAdvantage": 0.1
+  },
+  {
+    "id": "ENT-2021Q2-04",
+    "period": "2021Q2",
+    "segment": "enterprise",
+    "agency": "금융지주 B",
+    "title": "리스크 분석 모델 고도화",
+    "budgetKRW": 1800000000,
+    "durationQuarters": 3,
+    "domain": [
+      "data",
+      "ai"
+    ],
+    "requirements": {
+      "mandatoryCerts": [],
+      "minTrackRecords": {
+        "domain": "data",
+        "count": 2,
+        "minAmountKRW": 270000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 2,
+        "mid": 3,
+        "junior": 2
+      },
+      "vendorRegistration": "금융지주B-벤더"
+    },
+    "scoring": {
+      "tech": 70,
+      "price": 30
+    },
+    "techWeights": {
+      "실적": 20,
+      "인력": 25,
+      "기술능력": 35,
+      "관리방법": 15,
+      "상생": 5
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.451
+    },
+    "incumbentAdvantage": 0.1
+  },
+  {
+    "id": "PUB-2021Q2-01",
+    "period": "2021Q2",
+    "segment": "public",
+    "agency": "한국교육학술정보원",
+    "title": "학습분석 기반 맞춤형 학습 지원 시스템",
+    "budgetKRW": 2600000000,
+    "durationQuarters": 3,
+    "domain": [
+      "edu",
+      "data"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert"
+      ],
+      "minTrackRecords": {
+        "domain": "edu",
+        "count": 2,
+        "minAmountKRW": 390000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 3,
+        "mid": 4,
+        "junior": 3
+      }
+    },
+    "scoring": {
+      "tech": 90,
+      "price": 10
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.496
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "PUB-2021Q2-02",
+    "period": "2021Q2",
+    "segment": "public",
+    "agency": "한국데이터산업진흥원",
+    "title": "데이터 청년 캠퍼스 운영",
+    "budgetKRW": 1200000000,
+    "durationQuarters": 3,
+    "domain": [
+      "edu",
+      "data"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert"
+      ],
+      "minTrackRecords": {
+        "domain": "edu",
+        "count": 1,
+        "minAmountKRW": 240000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 1,
+        "mid": 2,
+        "junior": 1
+      }
+    },
+    "scoring": {
+      "tech": 90,
+      "price": 10
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.417
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "SMB-2021Q2-03",
+    "period": "2021Q2",
+    "segment": "smb",
+    "agency": "중소벤처기업진흥공단",
+    "title": "중소기업 데이터 활용 컨설팅",
+    "budgetKRW": 400000000,
+    "durationQuarters": 2,
+    "domain": [
+      "data"
+    ],
+    "requirements": {
+      "mandatoryCerts": [],
+      "minTrackRecords": null,
+      "staffMix": {
+        "senior": 1,
+        "mid": 1,
+        "junior": 1
+      }
+    },
+    "scoring": {
+      "tech": 60,
+      "price": 40
+    },
+    "techWeights": {
+      "실적": 15,
+      "인력": 20,
+      "기술능력": 40,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 5,
+      "strength": 0.372
+    },
+    "incumbentAdvantage": 0.1
+  },
+  {
+    "id": "ENT-2021Q3-02",
+    "period": "2021Q3",
+    "segment": "enterprise",
+    "agency": "금융지주 B",
+    "title": "AI 리터러시 임직원 교육",
+    "budgetKRW": 1000000000,
+    "durationQuarters": 2,
+    "domain": [
+      "edu",
+      "ai"
+    ],
+    "requirements": {
+      "mandatoryCerts": [],
+      "minTrackRecords": {
+        "domain": "edu",
+        "count": 1,
+        "minAmountKRW": 200000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 2,
+        "mid": 3,
+        "junior": 2
+      },
+      "vendorRegistration": "금융지주B-벤더"
+    },
+    "scoring": {
+      "tech": 70,
+      "price": 30
+    },
+    "techWeights": {
+      "실적": 20,
+      "인력": 25,
+      "기술능력": 35,
+      "관리방법": 15,
+      "상생": 5
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.406
+    },
+    "incumbentAdvantage": 0.1
+  },
+  {
+    "id": "PUB-2021Q3-01",
+    "period": "2021Q3",
+    "segment": "public",
+    "agency": "정보통신산업진흥원",
+    "title": "디지털 배움터 운영 지원",
+    "budgetKRW": 2000000000,
+    "durationQuarters": 4,
+    "domain": [
+      "edu"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert"
+      ],
+      "minTrackRecords": {
+        "domain": "edu",
+        "count": 2,
+        "minAmountKRW": 300000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 2,
+        "mid": 3,
+        "junior": 2
+      }
+    },
+    "scoring": {
+      "tech": 90,
+      "price": 10
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.462
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "PUB-2021Q3-03",
+    "period": "2021Q3",
+    "segment": "public",
+    "agency": "한국고용정보원",
+    "title": "고용정보 시스템 유지관리",
+    "budgetKRW": 700000000,
+    "durationQuarters": 4,
+    "domain": [
+      "si"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert"
+      ],
+      "minTrackRecords": {
+        "domain": "si",
+        "count": 1,
+        "minAmountKRW": 140000000
+      },
+      "staffMix": {
+        "senior": 1,
+        "mid": 1,
+        "junior": 1
+      }
+    },
+    "scoring": {
+      "tech": 80,
+      "price": 20
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.389
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "ENT-2021Q4-04",
+    "period": "2021Q4",
+    "segment": "enterprise",
+    "agency": "금융지주 B",
+    "title": "데이터 분석 실무 과정 운영",
+    "budgetKRW": 500000000,
+    "durationQuarters": 2,
+    "domain": [
+      "edu",
+      "data"
+    ],
+    "requirements": {
+      "mandatoryCerts": [],
+      "minTrackRecords": {
+        "domain": "edu",
+        "count": 1,
+        "minAmountKRW": 100000000
+      },
+      "staffMix": {
+        "senior": 1,
+        "mid": 1,
+        "junior": 1
+      },
+      "vendorRegistration": "금융지주B-벤더"
+    },
+    "scoring": {
+      "tech": 70,
+      "price": 30
+    },
+    "techWeights": {
+      "실적": 20,
+      "인력": 25,
+      "기술능력": 35,
+      "관리방법": 15,
+      "상생": 5
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.378
+    },
+    "incumbentAdvantage": 0.1
+  },
+  {
+    "id": "ENT-2021Q4-05",
+    "period": "2021Q4",
+    "segment": "enterprise",
+    "agency": "국내 대형 제조사 A",
+    "title": "전사 데이터 거버넌스 수립",
+    "budgetKRW": 2200000000,
+    "durationQuarters": 3,
+    "domain": [
+      "data"
+    ],
+    "requirements": {
+      "mandatoryCerts": [],
+      "minTrackRecords": {
+        "domain": "data",
+        "count": 2,
+        "minAmountKRW": 330000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 2,
+        "mid": 4,
+        "junior": 3
+      },
+      "vendorRegistration": "제조사A-벤더"
+    },
+    "scoring": {
+      "tech": 70,
+      "price": 30
+    },
+    "techWeights": {
+      "실적": 20,
+      "인력": 25,
+      "기술능력": 35,
+      "관리방법": 15,
+      "상생": 5
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.474
+    },
+    "incumbentAdvantage": 0.1
+  },
+  {
+    "id": "PUB-2021Q4-01",
+    "period": "2021Q4",
+    "segment": "public",
+    "agency": "정보통신기획평가원",
+    "title": "AI 융합 인재양성 사업",
+    "budgetKRW": 3500000000,
+    "durationQuarters": 4,
+    "domain": [
+      "ai",
+      "edu"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert",
+        "isms"
+      ],
+      "minTrackRecords": {
+        "domain": "ai",
+        "count": 2,
+        "minAmountKRW": 525000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 3,
+        "mid": 4,
+        "junior": 3
+      }
+    },
+    "scoring": {
+      "tech": 90,
+      "price": 10
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.547
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "PUB-2021Q4-02",
+    "period": "2021Q4",
+    "segment": "public",
+    "agency": "경기도교육청",
+    "title": "미래교실 스마트 인프라 구축",
+    "budgetKRW": 1600000000,
+    "durationQuarters": 3,
+    "domain": [
+      "si",
+      "cloud"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert"
+      ],
+      "minTrackRecords": {
+        "domain": "si",
+        "count": 2,
+        "minAmountKRW": 240000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 2,
+        "mid": 3,
+        "junior": 2
+      }
+    },
+    "scoring": {
+      "tech": 90,
+      "price": 10
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.44
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "PUB-2021Q4-03",
+    "period": "2021Q4",
+    "segment": "public",
+    "agency": "경기도교육청",
+    "title": "교육행정 데이터 분석 지원",
+    "budgetKRW": 500000000,
+    "durationQuarters": 3,
+    "domain": [
+      "data",
+      "edu"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert"
+      ],
+      "minTrackRecords": {
+        "domain": "data",
+        "count": 1,
+        "minAmountKRW": 100000000
+      },
+      "staffMix": {
+        "senior": 1,
+        "mid": 1,
+        "junior": 1
+      }
+    },
+    "scoring": {
+      "tech": 80,
+      "price": 20
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.378
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "ENT-2022Q1-04",
+    "period": "2022Q1",
+    "segment": "enterprise",
+    "agency": "금융지주 B",
+    "title": "고객상담 AI 어시스턴트 구축",
+    "budgetKRW": 2000000000,
+    "durationQuarters": 3,
+    "domain": [
+      "ai",
+      "cloud"
+    ],
+    "requirements": {
+      "mandatoryCerts": [],
+      "minTrackRecords": {
+        "domain": "ai",
+        "count": 2,
+        "minAmountKRW": 300000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 2,
+        "mid": 3,
+        "junior": 2
+      },
+      "vendorRegistration": "금융지주B-벤더"
+    },
+    "scoring": {
+      "tech": 70,
+      "price": 30
+    },
+    "techWeights": {
+      "실적": 20,
+      "인력": 25,
+      "기술능력": 35,
+      "관리방법": 15,
+      "상생": 5
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.462
+    },
+    "incumbentAdvantage": 0.1
+  },
+  {
+    "id": "GLO-2022Q1-05",
+    "period": "2022Q1",
+    "segment": "global",
+    "agency": "한국국제협력단",
+    "title": "아세안 디지털 교육 협력사업",
+    "budgetKRW": 2200000000,
+    "durationQuarters": 4,
+    "domain": [
+      "edu",
+      "si"
+    ],
+    "requirements": {
+      "mandatoryCerts": [],
+      "minTrackRecords": {
+        "domain": "edu",
+        "count": 2,
+        "minAmountKRW": 330000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 2,
+        "mid": 3,
+        "junior": 2
+      },
+      "vendorRegistration": "글로벌파트너십"
+    },
+    "scoring": {
+      "tech": 75,
+      "price": 25
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 20,
+      "상생": 5
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.474
+    },
+    "incumbentAdvantage": 0.1
+  },
+  {
+    "id": "PUB-2022Q1-01",
+    "period": "2022Q1",
+    "segment": "public",
+    "agency": "한국교육학술정보원",
+    "title": "AI 활용 교수학습 플랫폼 실증",
+    "budgetKRW": 2800000000,
+    "durationQuarters": 3,
+    "domain": [
+      "ai",
+      "edu"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert"
+      ],
+      "minTrackRecords": {
+        "domain": "ai",
+        "count": 2,
+        "minAmountKRW": 420000000
+      },
+      "staffMix": {
+        "principal": 2,
+        "senior": 3,
+        "mid": 5,
+        "junior": 3
+      }
+    },
+    "scoring": {
+      "tech": 90,
+      "price": 10
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.507
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "PUB-2022Q1-03",
+    "period": "2022Q1",
+    "segment": "public",
+    "agency": "한국지능정보사회진흥원",
+    "title": "AI 데이터 품질검증 지원",
+    "budgetKRW": 1100000000,
+    "durationQuarters": 3,
+    "domain": [
+      "data",
+      "ai"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert"
+      ],
+      "minTrackRecords": {
+        "domain": "data",
+        "count": 1,
+        "minAmountKRW": 220000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 1,
+        "mid": 2,
+        "junior": 1
+      }
+    },
+    "scoring": {
+      "tech": 90,
+      "price": 10
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.412
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "SMB-2022Q1-02",
+    "period": "2022Q1",
+    "segment": "smb",
+    "agency": "소상공인시장진흥공단",
+    "title": "소상공인 디지털 역량강화",
+    "budgetKRW": 600000000,
+    "durationQuarters": 2,
+    "domain": [
+      "edu"
+    ],
+    "requirements": {
+      "mandatoryCerts": [],
+      "minTrackRecords": {
+        "domain": "edu",
+        "count": 1,
+        "minAmountKRW": 120000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 1,
+        "mid": 2,
+        "junior": 1
+      }
+    },
+    "scoring": {
+      "tech": 60,
+      "price": 40
+    },
+    "techWeights": {
+      "실적": 15,
+      "인력": 20,
+      "기술능력": 40,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.384
+    },
+    "incumbentAdvantage": 0.1
+  },
+  {
+    "id": "ENT-2022Q2-05",
+    "period": "2022Q2",
+    "segment": "enterprise",
+    "agency": "국내 대형 제조사 A",
+    "title": "설비 예지보전 AI 확산",
+    "budgetKRW": 2600000000,
+    "durationQuarters": 4,
+    "domain": [
+      "ai",
+      "data"
+    ],
+    "requirements": {
+      "mandatoryCerts": [],
+      "minTrackRecords": {
+        "domain": "ai",
+        "count": 2,
+        "minAmountKRW": 390000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 2,
+        "mid": 3,
+        "junior": 2
+      },
+      "vendorRegistration": "제조사A-벤더"
+    },
+    "scoring": {
+      "tech": 70,
+      "price": 30
+    },
+    "techWeights": {
+      "실적": 20,
+      "인력": 25,
+      "기술능력": 35,
+      "관리방법": 15,
+      "상생": 5
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.496
+    },
+    "incumbentAdvantage": 0.1
+  },
+  {
+    "id": "PUB-2022Q2-01",
+    "period": "2022Q2",
+    "segment": "public",
+    "agency": "한국지능정보사회진흥원",
+    "title": "공공 마이데이터 활용 서비스 구축",
+    "budgetKRW": 4000000000,
+    "durationQuarters": 4,
+    "domain": [
+      "data",
+      "cloud"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert",
+        "isms"
+      ],
+      "minTrackRecords": {
+        "domain": "data",
+        "count": 3,
+        "minAmountKRW": 480000000
+      },
+      "staffMix": {
+        "principal": 2,
+        "senior": 3,
+        "mid": 5,
+        "junior": 3
+      }
+    },
+    "scoring": {
+      "tech": 90,
+      "price": 10
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.575
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "PUB-2022Q2-02",
+    "period": "2022Q2",
+    "segment": "public",
+    "agency": "국가평생교육진흥원",
+    "title": "평생학습 통합플랫폼 고도화",
+    "budgetKRW": 2200000000,
+    "durationQuarters": 3,
+    "domain": [
+      "edu",
+      "si"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert"
+      ],
+      "minTrackRecords": {
+        "domain": "edu",
+        "count": 2,
+        "minAmountKRW": 330000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 2,
+        "mid": 4,
+        "junior": 3
+      }
+    },
+    "scoring": {
+      "tech": 90,
+      "price": 10
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.474
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "PUB-2022Q2-04",
+    "period": "2022Q2",
+    "segment": "public",
+    "agency": "한국인터넷진흥원",
+    "title": "정보보호 교육과정 운영",
+    "budgetKRW": 600000000,
+    "durationQuarters": 3,
+    "domain": [
+      "edu",
+      "cloud"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert"
+      ],
+      "minTrackRecords": {
+        "domain": "edu",
+        "count": 1,
+        "minAmountKRW": 120000000
+      },
+      "staffMix": {
+        "senior": 1,
+        "mid": 1,
+        "junior": 1
+      }
+    },
+    "scoring": {
+      "tech": 80,
+      "price": 20
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.384
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "SMB-2022Q2-03",
+    "period": "2022Q2",
+    "segment": "smb",
+    "agency": "중소기업중앙회",
+    "title": "중소기업 스마트공장 교육",
+    "budgetKRW": 500000000,
+    "durationQuarters": 2,
+    "domain": [
+      "edu"
+    ],
+    "requirements": {
+      "mandatoryCerts": [],
+      "minTrackRecords": {
+        "domain": "edu",
+        "count": 1,
+        "minAmountKRW": 100000000
+      },
+      "staffMix": {
+        "senior": 1,
+        "mid": 1,
+        "junior": 1
+      }
+    },
+    "scoring": {
+      "tech": 60,
+      "price": 40
+    },
+    "techWeights": {
+      "실적": 15,
+      "인력": 20,
+      "기술능력": 40,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.378
+    },
+    "incumbentAdvantage": 0.1
+  },
+  {
+    "id": "ENT-2022Q3-02",
+    "period": "2022Q3",
+    "segment": "enterprise",
+    "agency": "국내 대형 제조사 A",
+    "title": "제조 AI 실무자 양성 과정",
+    "budgetKRW": 1400000000,
+    "durationQuarters": 3,
+    "domain": [
+      "ai",
+      "edu"
+    ],
+    "requirements": {
+      "mandatoryCerts": [],
+      "minTrackRecords": {
+        "domain": "ai",
+        "count": 1,
+        "minAmountKRW": 280000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 1,
+        "mid": 2,
+        "junior": 2
+      },
+      "vendorRegistration": "제조사A-벤더"
+    },
+    "scoring": {
+      "tech": 70,
+      "price": 30
+    },
+    "techWeights": {
+      "실적": 20,
+      "인력": 25,
+      "기술능력": 35,
+      "관리방법": 15,
+      "상생": 5
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.429
+    },
+    "incumbentAdvantage": 0.1
+  },
+  {
+    "id": "PUB-2022Q3-01",
+    "period": "2022Q3",
+    "segment": "public",
+    "agency": "교육부",
+    "title": "SW·AI 교육 선도학교 지원",
+    "budgetKRW": 1800000000,
+    "durationQuarters": 3,
+    "domain": [
+      "edu",
+      "ai"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert"
+      ],
+      "minTrackRecords": {
+        "domain": "edu",
+        "count": 2,
+        "minAmountKRW": 270000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 2,
+        "mid": 3,
+        "junior": 2
+      }
+    },
+    "scoring": {
+      "tech": 90,
+      "price": 10
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.451
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "PUB-2022Q3-03",
+    "period": "2022Q3",
+    "segment": "public",
+    "agency": "한국콘텐츠진흥원",
+    "title": "교육 콘텐츠 유통 플랫폼 운영",
+    "budgetKRW": 800000000,
+    "durationQuarters": 4,
+    "domain": [
+      "edu",
+      "si"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert"
+      ],
+      "minTrackRecords": {
+        "domain": "edu",
+        "count": 1,
+        "minAmountKRW": 160000000
+      },
+      "staffMix": {
+        "senior": 1,
+        "mid": 1,
+        "junior": 1
+      }
+    },
+    "scoring": {
+      "tech": 80,
+      "price": 20
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.395
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "PUB-2022Q3-04",
+    "period": "2022Q3",
+    "segment": "public",
+    "agency": "국가평생교육진흥원",
+    "title": "학점은행제 시스템 개선",
+    "budgetKRW": 700000000,
+    "durationQuarters": 3,
+    "domain": [
+      "si",
+      "edu"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert"
+      ],
+      "minTrackRecords": {
+        "domain": "si",
+        "count": 1,
+        "minAmountKRW": 140000000
+      },
+      "staffMix": {
+        "senior": 1,
+        "mid": 1,
+        "junior": 1
+      }
+    },
+    "scoring": {
+      "tech": 80,
+      "price": 20
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.389
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "ENT-2022Q4-04",
+    "period": "2022Q4",
+    "segment": "enterprise",
+    "agency": "금융지주 B",
+    "title": "클라우드 전환 및 운영체계 수립",
+    "budgetKRW": 3000000000,
+    "durationQuarters": 4,
+    "domain": [
+      "cloud",
+      "si"
+    ],
+    "requirements": {
+      "mandatoryCerts": [],
+      "minTrackRecords": {
+        "domain": "cloud",
+        "count": 2,
+        "minAmountKRW": 450000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 2,
+        "mid": 4,
+        "junior": 3
+      },
+      "vendorRegistration": "금융지주B-벤더"
+    },
+    "scoring": {
+      "tech": 70,
+      "price": 30
+    },
+    "techWeights": {
+      "실적": 20,
+      "인력": 25,
+      "기술능력": 35,
+      "관리방법": 15,
+      "상생": 5
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.519
+    },
+    "incumbentAdvantage": 0.1
+  },
+  {
+    "id": "PUB-2022Q4-01",
+    "period": "2022Q4",
+    "segment": "public",
+    "agency": "한국콘텐츠진흥원",
+    "title": "실감형 교육 콘텐츠 제작지원",
+    "budgetKRW": 2400000000,
+    "durationQuarters": 3,
+    "domain": [
+      "edu",
+      "cloud"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert"
+      ],
+      "minTrackRecords": {
+        "domain": "edu",
+        "count": 2,
+        "minAmountKRW": 360000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 3,
+        "mid": 4,
+        "junior": 3
+      }
+    },
+    "scoring": {
+      "tech": 90,
+      "price": 10
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.485
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "PUB-2022Q4-02",
+    "period": "2022Q4",
+    "segment": "public",
+    "agency": "한국고용정보원",
+    "title": "직업훈련 데이터 분석 체계 구축",
+    "budgetKRW": 1100000000,
+    "durationQuarters": 3,
+    "domain": [
+      "data"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert"
+      ],
+      "minTrackRecords": {
+        "domain": "data",
+        "count": 1,
+        "minAmountKRW": 220000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 1,
+        "mid": 2,
+        "junior": 1
+      }
+    },
+    "scoring": {
+      "tech": 90,
+      "price": 10
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.412
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "SMB-2022Q4-03",
+    "period": "2022Q4",
+    "segment": "smb",
+    "agency": "소상공인시장진흥공단",
+    "title": "소상공인 데이터 활용 지원",
+    "budgetKRW": 400000000,
+    "durationQuarters": 2,
+    "domain": [
+      "data"
+    ],
+    "requirements": {
+      "mandatoryCerts": [],
+      "minTrackRecords": null,
+      "staffMix": {
+        "senior": 1,
+        "mid": 1,
+        "junior": 1
+      }
+    },
+    "scoring": {
+      "tech": 60,
+      "price": 40
+    },
+    "techWeights": {
+      "실적": 15,
+      "인력": 20,
+      "기술능력": 40,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 5,
+      "strength": 0.372
+    },
+    "incumbentAdvantage": 0.1
+  },
+  {
+    "id": "ENT-2023Q1-05",
+    "period": "2023Q1",
+    "segment": "enterprise",
+    "agency": "국내 대형 제조사 A",
+    "title": "생성형 AI 사내 도입 파일럿",
+    "budgetKRW": 1800000000,
+    "durationQuarters": 2,
+    "domain": [
+      "ai"
+    ],
+    "requirements": {
+      "mandatoryCerts": [],
+      "minTrackRecords": {
+        "domain": "ai",
+        "count": 2,
+        "minAmountKRW": 270000000
+      },
+      "staffMix": {
+        "principal": 2,
+        "senior": 3,
+        "mid": 5,
+        "junior": 3
+      },
+      "vendorRegistration": "제조사A-벤더"
+    },
+    "scoring": {
+      "tech": 70,
+      "price": 30
+    },
+    "techWeights": {
+      "실적": 20,
+      "인력": 25,
+      "기술능력": 35,
+      "관리방법": 15,
+      "상생": 5
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.451
+    },
+    "incumbentAdvantage": 0.1
+  },
+  {
+    "id": "GLO-2023Q1-06",
+    "period": "2023Q1",
+    "segment": "global",
+    "agency": "아시아개발은행",
+    "title": "중앙아시아 직업훈련 정보화",
+    "budgetKRW": 2400000000,
+    "durationQuarters": 4,
+    "domain": [
+      "edu",
+      "si"
+    ],
+    "requirements": {
+      "mandatoryCerts": [],
+      "minTrackRecords": {
+        "domain": "edu",
+        "count": 2,
+        "minAmountKRW": 360000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 2,
+        "mid": 3,
+        "junior": 2
+      },
+      "vendorRegistration": "글로벌파트너십"
+    },
+    "scoring": {
+      "tech": 75,
+      "price": 25
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 20,
+      "상생": 5
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.485
+    },
+    "incumbentAdvantage": 0.1
+  },
+  {
+    "id": "PUB-2023Q1-01",
+    "period": "2023Q1",
+    "segment": "public",
+    "agency": "한국지능정보사회진흥원",
+    "title": "초거대 AI 활용 공공서비스 실증",
+    "budgetKRW": 5500000000,
+    "durationQuarters": 4,
+    "domain": [
+      "ai",
+      "cloud"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert",
+        "isms"
+      ],
+      "minTrackRecords": {
+        "domain": "ai",
+        "count": 3,
+        "minAmountKRW": 660000000
+      },
+      "staffMix": {
+        "principal": 2,
+        "senior": 4,
+        "mid": 7,
+        "junior": 5
+      }
+    },
+    "scoring": {
+      "tech": 90,
+      "price": 10
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 3,
+      "strength": 0.659
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "PUB-2023Q1-02",
+    "period": "2023Q1",
+    "segment": "public",
+    "agency": "한국교육학술정보원",
+    "title": "AI 디지털교과서 프로토타입 개발",
+    "budgetKRW": 3800000000,
+    "durationQuarters": 4,
+    "domain": [
+      "ai",
+      "edu"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert",
+        "isms"
+      ],
+      "minTrackRecords": {
+        "domain": "ai",
+        "count": 2,
+        "minAmountKRW": 570000000
+      },
+      "staffMix": {
+        "principal": 2,
+        "senior": 3,
+        "mid": 5,
+        "junior": 3
+      }
+    },
+    "scoring": {
+      "tech": 90,
+      "price": 10
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.564
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "PUB-2023Q1-03",
+    "period": "2023Q1",
+    "segment": "public",
+    "agency": "서울특별시교육청",
+    "title": "AI 교육 시범학교 운영지원",
+    "budgetKRW": 900000000,
+    "durationQuarters": 3,
+    "domain": [
+      "edu",
+      "ai"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert"
+      ],
+      "minTrackRecords": {
+        "domain": "edu",
+        "count": 1,
+        "minAmountKRW": 180000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 1,
+        "mid": 2,
+        "junior": 1
+      }
+    },
+    "scoring": {
+      "tech": 80,
+      "price": 20
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.401
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "PUB-2023Q1-04",
+    "period": "2023Q1",
+    "segment": "public",
+    "agency": "한국산업인력공단",
+    "title": "훈련생 관리시스템 유지관리",
+    "budgetKRW": 600000000,
+    "durationQuarters": 4,
+    "domain": [
+      "si"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert"
+      ],
+      "minTrackRecords": {
+        "domain": "si",
+        "count": 1,
+        "minAmountKRW": 120000000
+      },
+      "staffMix": {
+        "mid": 1,
+        "junior": 1
+      }
+    },
+    "scoring": {
+      "tech": 80,
+      "price": 20
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.384
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "ENT-2023Q2-04",
+    "period": "2023Q2",
+    "segment": "enterprise",
+    "agency": "국내 대형 제조사 A",
+    "title": "현장 데이터 분석 교육",
+    "budgetKRW": 700000000,
+    "durationQuarters": 2,
+    "domain": [
+      "edu",
+      "data"
+    ],
+    "requirements": {
+      "mandatoryCerts": [],
+      "minTrackRecords": {
+        "domain": "edu",
+        "count": 1,
+        "minAmountKRW": 140000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 1,
+        "mid": 2,
+        "junior": 1
+      },
+      "vendorRegistration": "제조사A-벤더"
+    },
+    "scoring": {
+      "tech": 70,
+      "price": 30
+    },
+    "techWeights": {
+      "실적": 20,
+      "인력": 25,
+      "기술능력": 35,
+      "관리방법": 15,
+      "상생": 5
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.389
+    },
+    "incumbentAdvantage": 0.1
+  },
+  {
+    "id": "PUB-2023Q2-01",
+    "period": "2023Q2",
+    "segment": "public",
+    "agency": "정보통신산업진흥원",
+    "title": "생성형 AI 도입 컨설팅 지원",
+    "budgetKRW": 2600000000,
+    "durationQuarters": 3,
+    "domain": [
+      "ai"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert"
+      ],
+      "minTrackRecords": {
+        "domain": "ai",
+        "count": 2,
+        "minAmountKRW": 390000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 3,
+        "mid": 4,
+        "junior": 3
+      }
+    },
+    "scoring": {
+      "tech": 90,
+      "price": 10
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.496
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "PUB-2023Q2-03",
+    "period": "2023Q2",
+    "segment": "public",
+    "agency": "경기도교육청",
+    "title": "디지털 교수학습 지원 운영",
+    "budgetKRW": 1000000000,
+    "durationQuarters": 3,
+    "domain": [
+      "edu",
+      "ai"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert"
+      ],
+      "minTrackRecords": {
+        "domain": "edu",
+        "count": 1,
+        "minAmountKRW": 200000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 1,
+        "mid": 2,
+        "junior": 1
+      }
+    },
+    "scoring": {
+      "tech": 90,
+      "price": 10
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.406
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "SMB-2023Q2-02",
+    "period": "2023Q2",
+    "segment": "smb",
+    "agency": "중소벤처기업진흥공단",
+    "title": "중소기업 AI 도입 바우처 수행",
+    "budgetKRW": 800000000,
+    "durationQuarters": 2,
+    "domain": [
+      "ai"
+    ],
+    "requirements": {
+      "mandatoryCerts": [],
+      "minTrackRecords": {
+        "domain": "ai",
+        "count": 1,
+        "minAmountKRW": 160000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 1,
+        "mid": 2,
+        "junior": 1
+      }
+    },
+    "scoring": {
+      "tech": 60,
+      "price": 40
+    },
+    "techWeights": {
+      "실적": 15,
+      "인력": 20,
+      "기술능력": 40,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.395
+    },
+    "incumbentAdvantage": 0.1
+  },
+  {
+    "id": "ENT-2023Q3-05",
+    "period": "2023Q3",
+    "segment": "enterprise",
+    "agency": "금융지주 B",
+    "title": "AI 기반 이상거래 탐지 고도화",
+    "budgetKRW": 2800000000,
+    "durationQuarters": 3,
+    "domain": [
+      "ai",
+      "data"
+    ],
+    "requirements": {
+      "mandatoryCerts": [],
+      "minTrackRecords": {
+        "domain": "ai",
+        "count": 2,
+        "minAmountKRW": 420000000
+      },
+      "staffMix": {
+        "principal": 2,
+        "senior": 3,
+        "mid": 5,
+        "junior": 3
+      },
+      "vendorRegistration": "금융지주B-벤더"
+    },
+    "scoring": {
+      "tech": 70,
+      "price": 30
+    },
+    "techWeights": {
+      "실적": 20,
+      "인력": 25,
+      "기술능력": 35,
+      "관리방법": 15,
+      "상생": 5
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.507
+    },
+    "incumbentAdvantage": 0.1
+  },
+  {
+    "id": "GLO-2023Q3-02",
+    "period": "2023Q3",
+    "segment": "global",
+    "agency": "한국국제협력단",
+    "title": "개도국 교육정보화 ODA 사업",
+    "budgetKRW": 3000000000,
+    "durationQuarters": 5,
+    "domain": [
+      "edu",
+      "si"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "iso27001"
+      ],
+      "minTrackRecords": {
+        "domain": "edu",
+        "count": 2,
+        "minAmountKRW": 450000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 2,
+        "mid": 3,
+        "junior": 2
+      },
+      "vendorRegistration": "글로벌파트너십"
+    },
+    "scoring": {
+      "tech": 75,
+      "price": 25
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 20,
+      "상생": 5
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.519
+    },
+    "incumbentAdvantage": 0.1
+  },
+  {
+    "id": "PUB-2023Q3-01",
+    "period": "2023Q3",
+    "segment": "public",
+    "agency": "한국산업인력공단",
+    "title": "디지털 훈련 통합관리 시스템",
+    "budgetKRW": 3200000000,
+    "durationQuarters": 4,
+    "domain": [
+      "si",
+      "data"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert",
+        "isms"
+      ],
+      "minTrackRecords": {
+        "domain": "si",
+        "count": 2,
+        "minAmountKRW": 480000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 3,
+        "mid": 4,
+        "junior": 3
+      }
+    },
+    "scoring": {
+      "tech": 90,
+      "price": 10
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.53
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "PUB-2023Q3-04",
+    "period": "2023Q3",
+    "segment": "public",
+    "agency": "한국데이터산업진흥원",
+    "title": "데이터 표준화 컨설팅",
+    "budgetKRW": 900000000,
+    "durationQuarters": 3,
+    "domain": [
+      "data"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert"
+      ],
+      "minTrackRecords": {
+        "domain": "data",
+        "count": 1,
+        "minAmountKRW": 180000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 1,
+        "mid": 2,
+        "junior": 1
+      }
+    },
+    "scoring": {
+      "tech": 80,
+      "price": 20
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.401
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "SMB-2023Q3-03",
+    "period": "2023Q3",
+    "segment": "smb",
+    "agency": "중소벤처기업진흥공단",
+    "title": "중소기업 생성형 AI 활용 교육",
+    "budgetKRW": 500000000,
+    "durationQuarters": 2,
+    "domain": [
+      "edu",
+      "ai"
+    ],
+    "requirements": {
+      "mandatoryCerts": [],
+      "minTrackRecords": {
+        "domain": "edu",
+        "count": 1,
+        "minAmountKRW": 100000000
+      },
+      "staffMix": {
+        "senior": 1,
+        "mid": 1,
+        "junior": 1
+      }
+    },
+    "scoring": {
+      "tech": 60,
+      "price": 40
+    },
+    "techWeights": {
+      "실적": 15,
+      "인력": 20,
+      "기술능력": 40,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.378
+    },
+    "incumbentAdvantage": 0.1
+  },
+  {
+    "id": "ENT-2023Q4-05",
+    "period": "2023Q4",
+    "segment": "enterprise",
+    "agency": "국내 대형 제조사 A",
+    "title": "전사 AI 리터러시 교육 확산",
+    "budgetKRW": 1600000000,
+    "durationQuarters": 3,
+    "domain": [
+      "edu",
+      "ai"
+    ],
+    "requirements": {
+      "mandatoryCerts": [],
+      "minTrackRecords": {
+        "domain": "edu",
+        "count": 2,
+        "minAmountKRW": 240000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 2,
+        "mid": 3,
+        "junior": 2
+      },
+      "vendorRegistration": "제조사A-벤더"
+    },
+    "scoring": {
+      "tech": 70,
+      "price": 30
+    },
+    "techWeights": {
+      "실적": 20,
+      "인력": 25,
+      "기술능력": 35,
+      "관리방법": 15,
+      "상생": 5
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.44
+    },
+    "incumbentAdvantage": 0.1
+  },
+  {
+    "id": "PUB-2023Q4-01",
+    "period": "2023Q4",
+    "segment": "public",
+    "agency": "교육부",
+    "title": "교원 AI 역량강화 연수 운영",
+    "budgetKRW": 2000000000,
+    "durationQuarters": 3,
+    "domain": [
+      "edu",
+      "ai"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert"
+      ],
+      "minTrackRecords": {
+        "domain": "edu",
+        "count": 2,
+        "minAmountKRW": 300000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 2,
+        "mid": 3,
+        "junior": 2
+      }
+    },
+    "scoring": {
+      "tech": 90,
+      "price": 10
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.462
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "PUB-2023Q4-02",
+    "period": "2023Q4",
+    "segment": "public",
+    "agency": "서울특별시교육청",
+    "title": "학교 데이터 통합 플랫폼 구축",
+    "budgetKRW": 1700000000,
+    "durationQuarters": 3,
+    "domain": [
+      "data",
+      "cloud"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert"
+      ],
+      "minTrackRecords": {
+        "domain": "data",
+        "count": 2,
+        "minAmountKRW": 255000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 2,
+        "mid": 3,
+        "junior": 2
+      }
+    },
+    "scoring": {
+      "tech": 90,
+      "price": 10
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.446
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "PUB-2023Q4-03",
+    "period": "2023Q4",
+    "segment": "public",
+    "agency": "한국인터넷진흥원",
+    "title": "AI 서비스 보안점검 지원",
+    "budgetKRW": 800000000,
+    "durationQuarters": 3,
+    "domain": [
+      "cloud",
+      "ai"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert"
+      ],
+      "minTrackRecords": {
+        "domain": "cloud",
+        "count": 1,
+        "minAmountKRW": 160000000
+      },
+      "staffMix": {
+        "senior": 1,
+        "mid": 1,
+        "junior": 1
+      }
+    },
+    "scoring": {
+      "tech": 80,
+      "price": 20
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.395
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "SMB-2023Q4-04",
+    "period": "2023Q4",
+    "segment": "smb",
+    "agency": "중소기업중앙회",
+    "title": "중소기업 클라우드 전환 지원",
+    "budgetKRW": 600000000,
+    "durationQuarters": 2,
+    "domain": [
+      "cloud"
+    ],
+    "requirements": {
+      "mandatoryCerts": [],
+      "minTrackRecords": {
+        "domain": "cloud",
+        "count": 1,
+        "minAmountKRW": 120000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 1,
+        "mid": 2,
+        "junior": 1
+      }
+    },
+    "scoring": {
+      "tech": 60,
+      "price": 40
+    },
+    "techWeights": {
+      "실적": 15,
+      "인력": 20,
+      "기술능력": 40,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.384
+    },
+    "incumbentAdvantage": 0.1
+  },
+  {
+    "id": "ENT-2024Q1-02",
+    "period": "2024Q1",
+    "segment": "enterprise",
+    "agency": "금융지주 B",
+    "title": "생성형 AI 업무 활용 체계 구축",
+    "budgetKRW": 2200000000,
+    "durationQuarters": 3,
+    "domain": [
+      "ai"
+    ],
+    "requirements": {
+      "mandatoryCerts": [],
+      "minTrackRecords": {
+        "domain": "ai",
+        "count": 2,
+        "minAmountKRW": 330000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 2,
+        "mid": 4,
+        "junior": 3
+      },
+      "vendorRegistration": "금융지주B-벤더"
+    },
+    "scoring": {
+      "tech": 70,
+      "price": 30
+    },
+    "techWeights": {
+      "실적": 20,
+      "인력": 25,
+      "기술능력": 35,
+      "관리방법": 15,
+      "상생": 5
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.474
+    },
+    "incumbentAdvantage": 0.1
+  },
+  {
+    "id": "PUB-2024Q1-01",
+    "period": "2024Q1",
+    "segment": "public",
+    "agency": "한국교육학술정보원",
+    "title": "AI 디지털교과서 도입 지원 사업",
+    "budgetKRW": 8000000000,
+    "durationQuarters": 5,
+    "domain": [
+      "ai",
+      "edu"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert",
+        "isms"
+      ],
+      "minTrackRecords": {
+        "domain": "ai",
+        "count": 3,
+        "minAmountKRW": 960000000
+      },
+      "staffMix": {
+        "principal": 3,
+        "senior": 5,
+        "mid": 8,
+        "junior": 5
+      }
+    },
+    "scoring": {
+      "tech": 90,
+      "price": 10
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 3,
+      "strength": 0.8
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "PUB-2024Q1-03",
+    "period": "2024Q1",
+    "segment": "public",
+    "agency": "국가평생교육진흥원",
+    "title": "평생학습 데이터 연계 운영",
+    "budgetKRW": 800000000,
+    "durationQuarters": 4,
+    "domain": [
+      "data",
+      "edu"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert"
+      ],
+      "minTrackRecords": {
+        "domain": "data",
+        "count": 1,
+        "minAmountKRW": 160000000
+      },
+      "staffMix": {
+        "senior": 1,
+        "mid": 1,
+        "junior": 1
+      }
+    },
+    "scoring": {
+      "tech": 80,
+      "price": 20
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.395
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "ENT-2024Q2-05",
+    "period": "2024Q2",
+    "segment": "enterprise",
+    "agency": "금융지주 B",
+    "title": "AI 거버넌스 및 모델 관리 체계",
+    "budgetKRW": 2400000000,
+    "durationQuarters": 3,
+    "domain": [
+      "ai",
+      "cloud"
+    ],
+    "requirements": {
+      "mandatoryCerts": [],
+      "minTrackRecords": {
+        "domain": "ai",
+        "count": 2,
+        "minAmountKRW": 360000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 3,
+        "mid": 4,
+        "junior": 3
+      },
+      "vendorRegistration": "금융지주B-벤더"
+    },
+    "scoring": {
+      "tech": 70,
+      "price": 30
+    },
+    "techWeights": {
+      "실적": 20,
+      "인력": 25,
+      "기술능력": 35,
+      "관리방법": 15,
+      "상생": 5
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.485
+    },
+    "incumbentAdvantage": 0.1
+  },
+  {
+    "id": "PUB-2024Q2-01",
+    "period": "2024Q2",
+    "segment": "public",
+    "agency": "한국지능정보사회진흥원",
+    "title": "공공 AI 데이터 품질관리 체계",
+    "budgetKRW": 3400000000,
+    "durationQuarters": 4,
+    "domain": [
+      "data",
+      "ai"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert",
+        "isms"
+      ],
+      "minTrackRecords": {
+        "domain": "data",
+        "count": 2,
+        "minAmountKRW": 510000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 3,
+        "mid": 4,
+        "junior": 3
+      }
+    },
+    "scoring": {
+      "tech": 90,
+      "price": 10
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.541
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "PUB-2024Q2-02",
+    "period": "2024Q2",
+    "segment": "public",
+    "agency": "한국인터넷진흥원",
+    "title": "AI 보안 대응 교육 체계 구축",
+    "budgetKRW": 1400000000,
+    "durationQuarters": 3,
+    "domain": [
+      "edu",
+      "cloud"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert"
+      ],
+      "minTrackRecords": {
+        "domain": "edu",
+        "count": 1,
+        "minAmountKRW": 280000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 1,
+        "mid": 2,
+        "junior": 2
+      }
+    },
+    "scoring": {
+      "tech": 90,
+      "price": 10
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.429
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "PUB-2024Q2-03",
+    "period": "2024Q2",
+    "segment": "public",
+    "agency": "서울특별시교육청",
+    "title": "AI 디지털교과서 현장지원단 운영",
+    "budgetKRW": 1200000000,
+    "durationQuarters": 4,
+    "domain": [
+      "edu",
+      "ai"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert"
+      ],
+      "minTrackRecords": {
+        "domain": "edu",
+        "count": 1,
+        "minAmountKRW": 240000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 1,
+        "mid": 2,
+        "junior": 1
+      }
+    },
+    "scoring": {
+      "tech": 90,
+      "price": 10
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.417
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "SMB-2024Q2-04",
+    "period": "2024Q2",
+    "segment": "smb",
+    "agency": "소상공인시장진흥공단",
+    "title": "소상공인 AI 챗봇 도입 지원",
+    "budgetKRW": 500000000,
+    "durationQuarters": 2,
+    "domain": [
+      "ai"
+    ],
+    "requirements": {
+      "mandatoryCerts": [],
+      "minTrackRecords": {
+        "domain": "ai",
+        "count": 1,
+        "minAmountKRW": 100000000
+      },
+      "staffMix": {
+        "senior": 1,
+        "mid": 1,
+        "junior": 1
+      }
+    },
+    "scoring": {
+      "tech": 60,
+      "price": 40
+    },
+    "techWeights": {
+      "실적": 15,
+      "인력": 20,
+      "기술능력": 40,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.378
+    },
+    "incumbentAdvantage": 0.1
+  },
+  {
+    "id": "ENT-2024Q3-04",
+    "period": "2024Q3",
+    "segment": "enterprise",
+    "agency": "금융지주 B",
+    "title": "AI 모델 검증 체계 자문",
+    "budgetKRW": 900000000,
+    "durationQuarters": 2,
+    "domain": [
+      "ai",
+      "data"
+    ],
+    "requirements": {
+      "mandatoryCerts": [],
+      "minTrackRecords": {
+        "domain": "ai",
+        "count": 1,
+        "minAmountKRW": 180000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 1,
+        "mid": 2,
+        "junior": 2
+      },
+      "vendorRegistration": "금융지주B-벤더"
+    },
+    "scoring": {
+      "tech": 70,
+      "price": 30
+    },
+    "techWeights": {
+      "실적": 20,
+      "인력": 25,
+      "기술능력": 35,
+      "관리방법": 15,
+      "상생": 5
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.401
+    },
+    "incumbentAdvantage": 0.1
+  },
+  {
+    "id": "ENT-2024Q3-05",
+    "period": "2024Q3",
+    "segment": "enterprise",
+    "agency": "국내 대형 제조사 A",
+    "title": "공급망 AI 최적화 사업",
+    "budgetKRW": 3400000000,
+    "durationQuarters": 4,
+    "domain": [
+      "ai",
+      "data"
+    ],
+    "requirements": {
+      "mandatoryCerts": [],
+      "minTrackRecords": {
+        "domain": "ai",
+        "count": 2,
+        "minAmountKRW": 510000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 3,
+        "mid": 4,
+        "junior": 3
+      },
+      "vendorRegistration": "제조사A-벤더"
+    },
+    "scoring": {
+      "tech": 70,
+      "price": 30
+    },
+    "techWeights": {
+      "실적": 20,
+      "인력": 25,
+      "기술능력": 35,
+      "관리방법": 15,
+      "상생": 5
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.541
+    },
+    "incumbentAdvantage": 0.1
+  },
+  {
+    "id": "GLO-2024Q3-02",
+    "period": "2024Q3",
+    "segment": "global",
+    "agency": "아시아개발은행",
+    "title": "동남아 디지털 역량강화 프로그램",
+    "budgetKRW": 2600000000,
+    "durationQuarters": 4,
+    "domain": [
+      "edu"
+    ],
+    "requirements": {
+      "mandatoryCerts": [],
+      "minTrackRecords": {
+        "domain": "edu",
+        "count": 2,
+        "minAmountKRW": 390000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 2,
+        "mid": 3,
+        "junior": 2
+      },
+      "vendorRegistration": "글로벌파트너십"
+    },
+    "scoring": {
+      "tech": 75,
+      "price": 25
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 20,
+      "상생": 5
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.496
+    },
+    "incumbentAdvantage": 0.1
+  },
+  {
+    "id": "PUB-2024Q3-01",
+    "period": "2024Q3",
+    "segment": "public",
+    "agency": "과학기술정보통신부",
+    "title": "K-디지털 플랫폼 고도화",
+    "budgetKRW": 4600000000,
+    "durationQuarters": 4,
+    "domain": [
+      "si",
+      "cloud"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert",
+        "isms"
+      ],
+      "minTrackRecords": {
+        "domain": "si",
+        "count": 3,
+        "minAmountKRW": 552000000
+      },
+      "staffMix": {
+        "principal": 2,
+        "senior": 4,
+        "mid": 6,
+        "junior": 4
+      }
+    },
+    "scoring": {
+      "tech": 90,
+      "price": 10
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.609
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "PUB-2024Q3-03",
+    "period": "2024Q3",
+    "segment": "public",
+    "agency": "한국고용정보원",
+    "title": "고용 데이터 AI 분석 고도화",
+    "budgetKRW": 1300000000,
+    "durationQuarters": 3,
+    "domain": [
+      "data",
+      "ai"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert"
+      ],
+      "minTrackRecords": {
+        "domain": "data",
+        "count": 1,
+        "minAmountKRW": 260000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 1,
+        "mid": 2,
+        "junior": 1
+      }
+    },
+    "scoring": {
+      "tech": 90,
+      "price": 10
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.423
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "ENT-2024Q4-02",
+    "period": "2024Q4",
+    "segment": "enterprise",
+    "agency": "국내 대형 제조사 A",
+    "title": "제조 AX 전환 컨설팅",
+    "budgetKRW": 2800000000,
+    "durationQuarters": 3,
+    "domain": [
+      "ai",
+      "data"
+    ],
+    "requirements": {
+      "mandatoryCerts": [],
+      "minTrackRecords": {
+        "domain": "ai",
+        "count": 2,
+        "minAmountKRW": 420000000
+      },
+      "staffMix": {
+        "principal": 2,
+        "senior": 3,
+        "mid": 5,
+        "junior": 3
+      },
+      "vendorRegistration": "제조사A-벤더"
+    },
+    "scoring": {
+      "tech": 70,
+      "price": 30
+    },
+    "techWeights": {
+      "실적": 20,
+      "인력": 25,
+      "기술능력": 35,
+      "관리방법": 15,
+      "상생": 5
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.507
+    },
+    "incumbentAdvantage": 0.1
+  },
+  {
+    "id": "GLO-2024Q4-05",
+    "period": "2024Q4",
+    "segment": "global",
+    "agency": "한국국제협력단",
+    "title": "아프리카 교육정보화 2차",
+    "budgetKRW": 2800000000,
+    "durationQuarters": 4,
+    "domain": [
+      "edu",
+      "cloud"
+    ],
+    "requirements": {
+      "mandatoryCerts": [],
+      "minTrackRecords": {
+        "domain": "edu",
+        "count": 2,
+        "minAmountKRW": 420000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 2,
+        "mid": 4,
+        "junior": 2
+      },
+      "vendorRegistration": "글로벌파트너십"
+    },
+    "scoring": {
+      "tech": 75,
+      "price": 25
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 20,
+      "상생": 5
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.507
+    },
+    "incumbentAdvantage": 0.1
+  },
+  {
+    "id": "PUB-2024Q4-01",
+    "period": "2024Q4",
+    "segment": "public",
+    "agency": "한국교육학술정보원",
+    "title": "AI 디지털교과서 운영·유지관리",
+    "budgetKRW": 4200000000,
+    "durationQuarters": 4,
+    "domain": [
+      "ai",
+      "edu",
+      "si"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert",
+        "isms"
+      ],
+      "minTrackRecords": {
+        "domain": "ai",
+        "count": 3,
+        "minAmountKRW": 504000000
+      },
+      "staffMix": {
+        "principal": 2,
+        "senior": 3,
+        "mid": 5,
+        "junior": 4
+      }
+    },
+    "scoring": {
+      "tech": 90,
+      "price": 10
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.586
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "PUB-2024Q4-03",
+    "period": "2024Q4",
+    "segment": "public",
+    "agency": "경기도교육청",
+    "title": "교육청 AI 상담 시스템 구축",
+    "budgetKRW": 1100000000,
+    "durationQuarters": 3,
+    "domain": [
+      "ai",
+      "si"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert"
+      ],
+      "minTrackRecords": {
+        "domain": "ai",
+        "count": 1,
+        "minAmountKRW": 220000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 1,
+        "mid": 2,
+        "junior": 1
+      }
+    },
+    "scoring": {
+      "tech": 90,
+      "price": 10
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.412
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "SMB-2024Q4-04",
+    "period": "2024Q4",
+    "segment": "smb",
+    "agency": "중소벤처기업진흥공단",
+    "title": "중소기업 AX 진단 컨설팅",
+    "budgetKRW": 600000000,
+    "durationQuarters": 2,
+    "domain": [
+      "ai"
+    ],
+    "requirements": {
+      "mandatoryCerts": [],
+      "minTrackRecords": {
+        "domain": "ai",
+        "count": 1,
+        "minAmountKRW": 120000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 1,
+        "mid": 2,
+        "junior": 1
+      }
+    },
+    "scoring": {
+      "tech": 60,
+      "price": 40
+    },
+    "techWeights": {
+      "실적": 15,
+      "인력": 20,
+      "기술능력": 40,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.384
+    },
+    "incumbentAdvantage": 0.1
+  },
+  {
+    "id": "ENT-2025Q1-05",
+    "period": "2025Q1",
+    "segment": "enterprise",
+    "agency": "금융지주 B",
+    "title": "AX 전사 확산 프로그램",
+    "budgetKRW": 4200000000,
+    "durationQuarters": 4,
+    "domain": [
+      "ai",
+      "edu"
+    ],
+    "requirements": {
+      "mandatoryCerts": [],
+      "minTrackRecords": {
+        "domain": "ai",
+        "count": 3,
+        "minAmountKRW": 504000000
+      },
+      "staffMix": {
+        "principal": 2,
+        "senior": 3,
+        "mid": 5,
+        "junior": 4
+      },
+      "vendorRegistration": "금융지주B-벤더"
+    },
+    "scoring": {
+      "tech": 70,
+      "price": 30
+    },
+    "techWeights": {
+      "실적": 20,
+      "인력": 25,
+      "기술능력": 35,
+      "관리방법": 15,
+      "상생": 5
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.586
+    },
+    "incumbentAdvantage": 0.1
+  },
+  {
+    "id": "PUB-2025Q1-01",
+    "period": "2025Q1",
+    "segment": "public",
+    "agency": "한국지능정보사회진흥원",
+    "title": "AX 확산 선도 프로젝트",
+    "budgetKRW": 6000000000,
+    "durationQuarters": 4,
+    "domain": [
+      "ai",
+      "cloud"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert",
+        "isms"
+      ],
+      "minTrackRecords": {
+        "domain": "ai",
+        "count": 3,
+        "minAmountKRW": 720000000
+      },
+      "staffMix": {
+        "principal": 3,
+        "senior": 5,
+        "mid": 8,
+        "junior": 5
+      }
+    },
+    "scoring": {
+      "tech": 90,
+      "price": 10
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 3,
+      "strength": 0.688
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "PUB-2025Q1-02",
+    "period": "2025Q1",
+    "segment": "public",
+    "agency": "국가평생교육진흥원",
+    "title": "AI 기반 평생학습 추천 시스템",
+    "budgetKRW": 2000000000,
+    "durationQuarters": 3,
+    "domain": [
+      "ai",
+      "edu"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert"
+      ],
+      "minTrackRecords": {
+        "domain": "ai",
+        "count": 2,
+        "minAmountKRW": 300000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 2,
+        "mid": 3,
+        "junior": 2
+      }
+    },
+    "scoring": {
+      "tech": 90,
+      "price": 10
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.462
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "PUB-2025Q1-03",
+    "period": "2025Q1",
+    "segment": "public",
+    "agency": "한국인터넷진흥원",
+    "title": "AI 안전성 평가 지원사업",
+    "budgetKRW": 1200000000,
+    "durationQuarters": 3,
+    "domain": [
+      "ai",
+      "cloud"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert"
+      ],
+      "minTrackRecords": {
+        "domain": "ai",
+        "count": 1,
+        "minAmountKRW": 240000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 1,
+        "mid": 2,
+        "junior": 1
+      }
+    },
+    "scoring": {
+      "tech": 90,
+      "price": 10
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.417
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "PUB-2025Q1-04",
+    "period": "2025Q1",
+    "segment": "public",
+    "agency": "한국산업인력공단",
+    "title": "AI 훈련교사 양성 과정 운영",
+    "budgetKRW": 900000000,
+    "durationQuarters": 3,
+    "domain": [
+      "edu",
+      "ai"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert"
+      ],
+      "minTrackRecords": {
+        "domain": "edu",
+        "count": 1,
+        "minAmountKRW": 180000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 1,
+        "mid": 2,
+        "junior": 1
+      }
+    },
+    "scoring": {
+      "tech": 80,
+      "price": 20
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.401
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "ENT-2025Q2-04",
+    "period": "2025Q2",
+    "segment": "enterprise",
+    "agency": "국내 대형 제조사 A",
+    "title": "AI 에이전트 파일럿 운영",
+    "budgetKRW": 1300000000,
+    "durationQuarters": 2,
+    "domain": [
+      "ai",
+      "cloud"
+    ],
+    "requirements": {
+      "mandatoryCerts": [],
+      "minTrackRecords": {
+        "domain": "ai",
+        "count": 1,
+        "minAmountKRW": 260000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 2,
+        "mid": 3,
+        "junior": 2
+      },
+      "vendorRegistration": "제조사A-벤더"
+    },
+    "scoring": {
+      "tech": 70,
+      "price": 30
+    },
+    "techWeights": {
+      "실적": 20,
+      "인력": 25,
+      "기술능력": 35,
+      "관리방법": 15,
+      "상생": 5
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.423
+    },
+    "incumbentAdvantage": 0.1
+  },
+  {
+    "id": "ENT-2025Q2-05",
+    "period": "2025Q2",
+    "segment": "enterprise",
+    "agency": "국내 대형 제조사 A",
+    "title": "제조 AI 플랫폼 통합 구축",
+    "budgetKRW": 4600000000,
+    "durationQuarters": 4,
+    "domain": [
+      "ai",
+      "si"
+    ],
+    "requirements": {
+      "mandatoryCerts": [],
+      "minTrackRecords": {
+        "domain": "ai",
+        "count": 3,
+        "minAmountKRW": 552000000
+      },
+      "staffMix": {
+        "principal": 2,
+        "senior": 4,
+        "mid": 6,
+        "junior": 4
+      },
+      "vendorRegistration": "제조사A-벤더"
+    },
+    "scoring": {
+      "tech": 70,
+      "price": 30
+    },
+    "techWeights": {
+      "실적": 20,
+      "인력": 25,
+      "기술능력": 35,
+      "관리방법": 15,
+      "상생": 5
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.609
+    },
+    "incumbentAdvantage": 0.1
+  },
+  {
+    "id": "PUB-2025Q2-01",
+    "period": "2025Q2",
+    "segment": "public",
+    "agency": "정보통신기획평가원",
+    "title": "AI 거버넌스 체계 구축 지원",
+    "budgetKRW": 3000000000,
+    "durationQuarters": 3,
+    "domain": [
+      "ai",
+      "data"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert",
+        "isms"
+      ],
+      "minTrackRecords": {
+        "domain": "ai",
+        "count": 2,
+        "minAmountKRW": 450000000
+      },
+      "staffMix": {
+        "principal": 2,
+        "senior": 3,
+        "mid": 5,
+        "junior": 3
+      }
+    },
+    "scoring": {
+      "tech": 90,
+      "price": 10
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.519
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "PUB-2025Q2-03",
+    "period": "2025Q2",
+    "segment": "public",
+    "agency": "서울특별시교육청",
+    "title": "학교 AI 인프라 운영지원",
+    "budgetKRW": 1000000000,
+    "durationQuarters": 4,
+    "domain": [
+      "cloud",
+      "si"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert"
+      ],
+      "minTrackRecords": {
+        "domain": "cloud",
+        "count": 1,
+        "minAmountKRW": 200000000
+      },
+      "staffMix": {
+        "senior": 1,
+        "mid": 1,
+        "junior": 1
+      }
+    },
+    "scoring": {
+      "tech": 90,
+      "price": 10
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.406
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "SMB-2025Q2-02",
+    "period": "2025Q2",
+    "segment": "smb",
+    "agency": "중소기업중앙회",
+    "title": "중소기업 AX 실무교육",
+    "budgetKRW": 900000000,
+    "durationQuarters": 2,
+    "domain": [
+      "edu",
+      "ai"
+    ],
+    "requirements": {
+      "mandatoryCerts": [],
+      "minTrackRecords": {
+        "domain": "edu",
+        "count": 1,
+        "minAmountKRW": 180000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 1,
+        "mid": 2,
+        "junior": 2
+      }
+    },
+    "scoring": {
+      "tech": 60,
+      "price": 40
+    },
+    "techWeights": {
+      "실적": 15,
+      "인력": 20,
+      "기술능력": 40,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.401
+    },
+    "incumbentAdvantage": 0.1
+  },
+  {
+    "id": "ENT-2025Q3-02",
+    "period": "2025Q3",
+    "segment": "enterprise",
+    "agency": "금융지주 B",
+    "title": "AI 에이전트 도입 PoC",
+    "budgetKRW": 2500000000,
+    "durationQuarters": 3,
+    "domain": [
+      "ai",
+      "cloud"
+    ],
+    "requirements": {
+      "mandatoryCerts": [],
+      "minTrackRecords": {
+        "domain": "ai",
+        "count": 2,
+        "minAmountKRW": 375000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 3,
+        "mid": 4,
+        "junior": 3
+      },
+      "vendorRegistration": "금융지주B-벤더"
+    },
+    "scoring": {
+      "tech": 70,
+      "price": 30
+    },
+    "techWeights": {
+      "실적": 20,
+      "인력": 25,
+      "기술능력": 35,
+      "관리방법": 15,
+      "상생": 5
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.491
+    },
+    "incumbentAdvantage": 0.1
+  },
+  {
+    "id": "PUB-2025Q3-01",
+    "period": "2025Q3",
+    "segment": "public",
+    "agency": "교육부",
+    "title": "AI 디지털교과서 2차 확산 사업",
+    "budgetKRW": 7000000000,
+    "durationQuarters": 5,
+    "domain": [
+      "ai",
+      "edu"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert",
+        "isms"
+      ],
+      "minTrackRecords": {
+        "domain": "ai",
+        "count": 3,
+        "minAmountKRW": 840000000
+      },
+      "staffMix": {
+        "principal": 2,
+        "senior": 4,
+        "mid": 7,
+        "junior": 5
+      }
+    },
+    "scoring": {
+      "tech": 90,
+      "price": 10
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 3,
+      "strength": 0.744
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "PUB-2025Q3-04",
+    "period": "2025Q3",
+    "segment": "public",
+    "agency": "한국데이터산업진흥원",
+    "title": "AI 학습데이터 관리체계 운영",
+    "budgetKRW": 1400000000,
+    "durationQuarters": 3,
+    "domain": [
+      "data",
+      "ai"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert"
+      ],
+      "minTrackRecords": {
+        "domain": "data",
+        "count": 1,
+        "minAmountKRW": 280000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 1,
+        "mid": 2,
+        "junior": 2
+      }
+    },
+    "scoring": {
+      "tech": 90,
+      "price": 10
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.429
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "SMB-2025Q3-03",
+    "period": "2025Q3",
+    "segment": "smb",
+    "agency": "중소기업중앙회",
+    "title": "중소기업 AI 도입 사후관리",
+    "budgetKRW": 600000000,
+    "durationQuarters": 3,
+    "domain": [
+      "ai"
+    ],
+    "requirements": {
+      "mandatoryCerts": [],
+      "minTrackRecords": {
+        "domain": "ai",
+        "count": 1,
+        "minAmountKRW": 120000000
+      },
+      "staffMix": {
+        "senior": 1,
+        "mid": 1,
+        "junior": 1
+      }
+    },
+    "scoring": {
+      "tech": 60,
+      "price": 40
+    },
+    "techWeights": {
+      "실적": 15,
+      "인력": 20,
+      "기술능력": 40,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.384
+    },
+    "incumbentAdvantage": 0.1
+  },
+  {
+    "id": "ENT-2025Q4-04",
+    "period": "2025Q4",
+    "segment": "enterprise",
+    "agency": "금융지주 B",
+    "title": "AI 에이전트 전사 배포",
+    "budgetKRW": 3800000000,
+    "durationQuarters": 3,
+    "domain": [
+      "ai",
+      "cloud"
+    ],
+    "requirements": {
+      "mandatoryCerts": [],
+      "minTrackRecords": {
+        "domain": "ai",
+        "count": 2,
+        "minAmountKRW": 570000000
+      },
+      "staffMix": {
+        "principal": 2,
+        "senior": 4,
+        "mid": 6,
+        "junior": 4
+      },
+      "vendorRegistration": "금융지주B-벤더"
+    },
+    "scoring": {
+      "tech": 70,
+      "price": 30
+    },
+    "techWeights": {
+      "실적": 20,
+      "인력": 25,
+      "기술능력": 35,
+      "관리방법": 15,
+      "상생": 5
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.564
+    },
+    "incumbentAdvantage": 0.1
+  },
+  {
+    "id": "GLO-2025Q4-02",
+    "period": "2025Q4",
+    "segment": "global",
+    "agency": "한국국제협력단",
+    "title": "베트남 직업훈련 정보화 ODA",
+    "budgetKRW": 3400000000,
+    "durationQuarters": 5,
+    "domain": [
+      "edu",
+      "si"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "iso27001"
+      ],
+      "minTrackRecords": {
+        "domain": "edu",
+        "count": 2,
+        "minAmountKRW": 510000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 2,
+        "mid": 3,
+        "junior": 2
+      },
+      "vendorRegistration": "글로벌파트너십"
+    },
+    "scoring": {
+      "tech": 75,
+      "price": 25
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 20,
+      "상생": 5
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.541
+    },
+    "incumbentAdvantage": 0.1
+  },
+  {
+    "id": "PUB-2025Q4-01",
+    "period": "2025Q4",
+    "segment": "public",
+    "agency": "한국산업인력공단",
+    "title": "AX 직무전환 훈련 플랫폼",
+    "budgetKRW": 3800000000,
+    "durationQuarters": 4,
+    "domain": [
+      "edu",
+      "ai"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert",
+        "isms"
+      ],
+      "minTrackRecords": {
+        "domain": "edu",
+        "count": 2,
+        "minAmountKRW": 570000000
+      },
+      "staffMix": {
+        "principal": 2,
+        "senior": 3,
+        "mid": 5,
+        "junior": 3
+      }
+    },
+    "scoring": {
+      "tech": 90,
+      "price": 10
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.564
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "PUB-2025Q4-03",
+    "period": "2025Q4",
+    "segment": "public",
+    "agency": "국가평생교육진흥원",
+    "title": "AI 학습 추천 고도화",
+    "budgetKRW": 1100000000,
+    "durationQuarters": 3,
+    "domain": [
+      "ai",
+      "edu"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert"
+      ],
+      "minTrackRecords": {
+        "domain": "ai",
+        "count": 1,
+        "minAmountKRW": 220000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 1,
+        "mid": 2,
+        "junior": 1
+      }
+    },
+    "scoring": {
+      "tech": 90,
+      "price": 10
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.412
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "ENT-2026Q1-05",
+    "period": "2026Q1",
+    "segment": "enterprise",
+    "agency": "국내 대형 제조사 A",
+    "title": "AX 성과관리 체계 구축",
+    "budgetKRW": 3000000000,
+    "durationQuarters": 3,
+    "domain": [
+      "ai",
+      "data"
+    ],
+    "requirements": {
+      "mandatoryCerts": [],
+      "minTrackRecords": {
+        "domain": "ai",
+        "count": 2,
+        "minAmountKRW": 450000000
+      },
+      "staffMix": {
+        "principal": 2,
+        "senior": 3,
+        "mid": 5,
+        "junior": 3
+      },
+      "vendorRegistration": "제조사A-벤더"
+    },
+    "scoring": {
+      "tech": 70,
+      "price": 30
+    },
+    "techWeights": {
+      "실적": 20,
+      "인력": 25,
+      "기술능력": 35,
+      "관리방법": 15,
+      "상생": 5
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.519
+    },
+    "incumbentAdvantage": 0.1
+  },
+  {
+    "id": "PUB-2026Q1-01",
+    "period": "2026Q1",
+    "segment": "public",
+    "agency": "한국지능정보사회진흥원",
+    "title": "공공 AI 에이전트 실증 사업",
+    "budgetKRW": 7500000000,
+    "durationQuarters": 4,
+    "domain": [
+      "ai",
+      "cloud"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert",
+        "isms"
+      ],
+      "minTrackRecords": {
+        "domain": "ai",
+        "count": 3,
+        "minAmountKRW": 900000000
+      },
+      "staffMix": {
+        "principal": 3,
+        "senior": 6,
+        "mid": 9,
+        "junior": 6
+      }
+    },
+    "scoring": {
+      "tech": 90,
+      "price": 10
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 3,
+      "strength": 0.772
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "PUB-2026Q1-02",
+    "period": "2026Q1",
+    "segment": "public",
+    "agency": "한국교육학술정보원",
+    "title": "학습 데이터 표준화 및 연계 사업",
+    "budgetKRW": 2400000000,
+    "durationQuarters": 3,
+    "domain": [
+      "data",
+      "edu"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert"
+      ],
+      "minTrackRecords": {
+        "domain": "data",
+        "count": 2,
+        "minAmountKRW": 360000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 3,
+        "mid": 4,
+        "junior": 3
+      }
+    },
+    "scoring": {
+      "tech": 90,
+      "price": 10
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.485
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "PUB-2026Q1-03",
+    "period": "2026Q1",
+    "segment": "public",
+    "agency": "경기도교육청",
+    "title": "AI 디지털교과서 운영지원",
+    "budgetKRW": 1500000000,
+    "durationQuarters": 4,
+    "domain": [
+      "edu",
+      "ai"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert"
+      ],
+      "minTrackRecords": {
+        "domain": "edu",
+        "count": 2,
+        "minAmountKRW": 225000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 1,
+        "mid": 2,
+        "junior": 1
+      }
+    },
+    "scoring": {
+      "tech": 90,
+      "price": 10
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.434
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "SMB-2026Q1-04",
+    "period": "2026Q1",
+    "segment": "smb",
+    "agency": "소상공인시장진흥공단",
+    "title": "소상공인 AX 실증 지원",
+    "budgetKRW": 700000000,
+    "durationQuarters": 2,
+    "domain": [
+      "ai",
+      "edu"
+    ],
+    "requirements": {
+      "mandatoryCerts": [],
+      "minTrackRecords": {
+        "domain": "ai",
+        "count": 1,
+        "minAmountKRW": 140000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 1,
+        "mid": 2,
+        "junior": 1
+      }
+    },
+    "scoring": {
+      "tech": 60,
+      "price": 40
+    },
+    "techWeights": {
+      "실적": 15,
+      "인력": 20,
+      "기술능력": 40,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.389
+    },
+    "incumbentAdvantage": 0.1
+  },
+  {
+    "id": "ENT-2026Q2-02",
+    "period": "2026Q2",
+    "segment": "enterprise",
+    "agency": "국내 대형 제조사 A",
+    "title": "AX 통합 운영 체계 구축",
+    "budgetKRW": 4000000000,
+    "durationQuarters": 4,
+    "domain": [
+      "ai",
+      "si"
+    ],
+    "requirements": {
+      "mandatoryCerts": [],
+      "minTrackRecords": {
+        "domain": "ai",
+        "count": 3,
+        "minAmountKRW": 480000000
+      },
+      "staffMix": {
+        "principal": 2,
+        "senior": 3,
+        "mid": 5,
+        "junior": 3
+      },
+      "vendorRegistration": "제조사A-벤더"
+    },
+    "scoring": {
+      "tech": 70,
+      "price": 30
+    },
+    "techWeights": {
+      "실적": 20,
+      "인력": 25,
+      "기술능력": 35,
+      "관리방법": 15,
+      "상생": 5
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.575
+    },
+    "incumbentAdvantage": 0.1
+  },
+  {
+    "id": "GLO-2026Q2-05",
+    "period": "2026Q2",
+    "segment": "global",
+    "agency": "아시아개발은행",
+    "title": "역내 AI 인재양성 협력",
+    "budgetKRW": 3200000000,
+    "durationQuarters": 4,
+    "domain": [
+      "edu",
+      "ai"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "iso27001"
+      ],
+      "minTrackRecords": {
+        "domain": "edu",
+        "count": 2,
+        "minAmountKRW": 480000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 3,
+        "mid": 4,
+        "junior": 3
+      },
+      "vendorRegistration": "글로벌파트너십"
+    },
+    "scoring": {
+      "tech": 75,
+      "price": 25
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 20,
+      "상생": 5
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.53
+    },
+    "incumbentAdvantage": 0.1
+  },
+  {
+    "id": "PUB-2026Q2-01",
+    "period": "2026Q2",
+    "segment": "public",
+    "agency": "정보통신산업진흥원",
+    "title": "산업 AX 전환 지원 사업",
+    "budgetKRW": 5200000000,
+    "durationQuarters": 4,
+    "domain": [
+      "ai",
+      "data"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert",
+        "isms"
+      ],
+      "minTrackRecords": {
+        "domain": "ai",
+        "count": 3,
+        "minAmountKRW": 624000000
+      },
+      "staffMix": {
+        "principal": 2,
+        "senior": 4,
+        "mid": 7,
+        "junior": 4
+      }
+    },
+    "scoring": {
+      "tech": 90,
+      "price": 10
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 3,
+      "strength": 0.643
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "PUB-2026Q2-03",
+    "period": "2026Q2",
+    "segment": "public",
+    "agency": "한국고용정보원",
+    "title": "AI 직무매칭 시스템 고도화",
+    "budgetKRW": 1600000000,
+    "durationQuarters": 3,
+    "domain": [
+      "ai",
+      "data"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert"
+      ],
+      "minTrackRecords": {
+        "domain": "ai",
+        "count": 2,
+        "minAmountKRW": 240000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 2,
+        "mid": 3,
+        "junior": 2
+      }
+    },
+    "scoring": {
+      "tech": 90,
+      "price": 10
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.44
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "PUB-2026Q2-04",
+    "period": "2026Q2",
+    "segment": "public",
+    "agency": "한국인터넷진흥원",
+    "title": "AI 거버넌스 진단 지원",
+    "budgetKRW": 1200000000,
+    "durationQuarters": 3,
+    "domain": [
+      "ai",
+      "cloud"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert"
+      ],
+      "minTrackRecords": {
+        "domain": "ai",
+        "count": 1,
+        "minAmountKRW": 240000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 1,
+        "mid": 2,
+        "junior": 1
+      }
+    },
+    "scoring": {
+      "tech": 90,
+      "price": 10
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.417
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "ENT-2026Q3-03",
+    "period": "2026Q3",
+    "segment": "enterprise",
+    "agency": "금융지주 B",
+    "title": "AX 운영체계 자문",
+    "budgetKRW": 1800000000,
+    "durationQuarters": 3,
+    "domain": [
+      "ai",
+      "si"
+    ],
+    "requirements": {
+      "mandatoryCerts": [],
+      "minTrackRecords": {
+        "domain": "ai",
+        "count": 2,
+        "minAmountKRW": 270000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 2,
+        "mid": 3,
+        "junior": 2
+      },
+      "vendorRegistration": "금융지주B-벤더"
+    },
+    "scoring": {
+      "tech": 70,
+      "price": 30
+    },
+    "techWeights": {
+      "실적": 20,
+      "인력": 25,
+      "기술능력": 35,
+      "관리방법": 15,
+      "상생": 5
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.451
+    },
+    "incumbentAdvantage": 0.1
+  },
+  {
+    "id": "GLO-2026Q3-02",
+    "period": "2026Q3",
+    "segment": "global",
+    "agency": "아시아개발은행",
+    "title": "역내 AI 교육 표준화 사업",
+    "budgetKRW": 3600000000,
+    "durationQuarters": 4,
+    "domain": [
+      "edu",
+      "ai"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "iso27001"
+      ],
+      "minTrackRecords": {
+        "domain": "edu",
+        "count": 2,
+        "minAmountKRW": 540000000
+      },
+      "staffMix": {
+        "principal": 2,
+        "senior": 3,
+        "mid": 5,
+        "junior": 3
+      },
+      "vendorRegistration": "글로벌파트너십"
+    },
+    "scoring": {
+      "tech": 75,
+      "price": 25
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 20,
+      "상생": 5
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.552
+    },
+    "incumbentAdvantage": 0.1
+  },
+  {
+    "id": "PUB-2026Q3-01",
+    "period": "2026Q3",
+    "segment": "public",
+    "agency": "과학기술정보통신부",
+    "title": "AI 인재양성 통합 플랫폼 구축",
+    "budgetKRW": 5800000000,
+    "durationQuarters": 4,
+    "domain": [
+      "edu",
+      "ai"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert",
+        "isms"
+      ],
+      "minTrackRecords": {
+        "domain": "edu",
+        "count": 3,
+        "minAmountKRW": 696000000
+      },
+      "staffMix": {
+        "principal": 2,
+        "senior": 5,
+        "mid": 7,
+        "junior": 5
+      }
+    },
+    "scoring": {
+      "tech": 90,
+      "price": 10
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 3,
+      "strength": 0.676
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "PUB-2026Q3-04",
+    "period": "2026Q3",
+    "segment": "public",
+    "agency": "서울특별시교육청",
+    "title": "교육 데이터 통합 운영",
+    "budgetKRW": 1300000000,
+    "durationQuarters": 4,
+    "domain": [
+      "data",
+      "si"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert"
+      ],
+      "minTrackRecords": {
+        "domain": "data",
+        "count": 1,
+        "minAmountKRW": 260000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 1,
+        "mid": 2,
+        "junior": 1
+      }
+    },
+    "scoring": {
+      "tech": 90,
+      "price": 10
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.423
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "ENT-2026Q4-05",
+    "period": "2026Q4",
+    "segment": "enterprise",
+    "agency": "금융지주 B",
+    "title": "AI 운영 고도화 및 확산",
+    "budgetKRW": 4400000000,
+    "durationQuarters": 4,
+    "domain": [
+      "ai",
+      "si"
+    ],
+    "requirements": {
+      "mandatoryCerts": [],
+      "minTrackRecords": {
+        "domain": "ai",
+        "count": 3,
+        "minAmountKRW": 528000000
+      },
+      "staffMix": {
+        "principal": 2,
+        "senior": 4,
+        "mid": 6,
+        "junior": 4
+      },
+      "vendorRegistration": "금융지주B-벤더"
+    },
+    "scoring": {
+      "tech": 70,
+      "price": 30
+    },
+    "techWeights": {
+      "실적": 20,
+      "인력": 25,
+      "기술능력": 35,
+      "관리방법": 15,
+      "상생": 5
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.598
+    },
+    "incumbentAdvantage": 0.1
+  },
+  {
+    "id": "PUB-2026Q4-01",
+    "period": "2026Q4",
+    "segment": "public",
+    "agency": "교육부",
+    "title": "AI 디지털교과서 3차 고도화",
+    "budgetKRW": 6500000000,
+    "durationQuarters": 4,
+    "domain": [
+      "ai",
+      "edu",
+      "si"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert",
+        "isms"
+      ],
+      "minTrackRecords": {
+        "domain": "ai",
+        "count": 3,
+        "minAmountKRW": 780000000
+      },
+      "staffMix": {
+        "principal": 3,
+        "senior": 5,
+        "mid": 8,
+        "junior": 6
+      }
+    },
+    "scoring": {
+      "tech": 90,
+      "price": 10
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 3,
+      "strength": 0.716
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "PUB-2026Q4-03",
+    "period": "2026Q4",
+    "segment": "public",
+    "agency": "한국산업인력공단",
+    "title": "AX 훈련과정 운영 위탁",
+    "budgetKRW": 1400000000,
+    "durationQuarters": 3,
+    "domain": [
+      "edu",
+      "ai"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert"
+      ],
+      "minTrackRecords": {
+        "domain": "edu",
+        "count": 1,
+        "minAmountKRW": 280000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 1,
+        "mid": 2,
+        "junior": 2
+      }
+    },
+    "scoring": {
+      "tech": 90,
+      "price": 10
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.429
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "PUB-2026Q4-04",
+    "period": "2026Q4",
+    "segment": "public",
+    "agency": "국가평생교육진흥원",
+    "title": "AI 학습분석 운영지원",
+    "budgetKRW": 1000000000,
+    "durationQuarters": 3,
+    "domain": [
+      "data",
+      "edu"
+    ],
+    "requirements": {
+      "mandatoryCerts": [
+        "swBusinessCert"
+      ],
+      "minTrackRecords": {
+        "domain": "data",
+        "count": 1,
+        "minAmountKRW": 200000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 1,
+        "mid": 2,
+        "junior": 1
+      }
+    },
+    "scoring": {
+      "tech": 90,
+      "price": 10
+    },
+    "techWeights": {
+      "실적": 25,
+      "인력": 20,
+      "기술능력": 30,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.406
+    },
+    "incumbentAdvantage": 0.15
+  },
+  {
+    "id": "SMB-2026Q4-02",
+    "period": "2026Q4",
+    "segment": "smb",
+    "agency": "소상공인시장진흥공단",
+    "title": "소상공인 AI 활용 지원 사업",
+    "budgetKRW": 1200000000,
+    "durationQuarters": 2,
+    "domain": [
+      "ai",
+      "edu"
+    ],
+    "requirements": {
+      "mandatoryCerts": [],
+      "minTrackRecords": {
+        "domain": "ai",
+        "count": 1,
+        "minAmountKRW": 240000000
+      },
+      "staffMix": {
+        "principal": 1,
+        "senior": 2,
+        "mid": 3,
+        "junior": 2
+      }
+    },
+    "scoring": {
+      "tech": 60,
+      "price": 40
+    },
+    "techWeights": {
+      "실적": 15,
+      "인력": 20,
+      "기술능력": 40,
+      "관리방법": 15,
+      "상생": 10
+    },
+    "competition": {
+      "count": 4,
+      "strength": 0.417
+    },
+    "incumbentAdvantage": 0.1
+  }
+]

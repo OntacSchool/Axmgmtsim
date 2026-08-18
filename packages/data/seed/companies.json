@@ -1,0 +1,191 @@
+[
+  {
+    "id": "ontact",
+    "name": "온택트스쿨 (자사형 프로필)",
+    "description": "교육·AI 역량이 강하고 공공 채널에 발을 걸친 중소 규모 AX 기업. 대기업·글로벌 채널은 아직 닫혀 있어 영입이나 인수로만 열린다.",
+    "startPeriod": "2020Q1",
+    "cashKRW": 2000000000,
+    "staff": {
+      "principal": 1,
+      "senior": 3,
+      "mid": 7,
+      "junior": 5
+    },
+    "capability": {
+      "ai": 52,
+      "data": 44,
+      "si": 38,
+      "edu": 70,
+      "cloud": 32
+    },
+    "channel": {
+      "public": 45,
+      "enterprise": 18,
+      "global": 8,
+      "smb": 36
+    },
+    "certs": [
+      "swBusinessCert"
+    ],
+    "relations": {
+      "한국교육학술정보원": 38,
+      "한국산업인력공단": 30,
+      "정보통신산업진흥원": 22,
+      "국가평생교육진흥원": 20
+    },
+    "vendorRegistrations": [],
+    "trackRecords": [
+      {
+        "domain": "edu",
+        "segment": "public",
+        "amountKRW": 620000000,
+        "agency": "한국교육학술정보원",
+        "quality": 0.72
+      },
+      {
+        "domain": "edu",
+        "segment": "public",
+        "amountKRW": 410000000,
+        "agency": "한국산업인력공단",
+        "quality": 0.68
+      },
+      {
+        "domain": "edu",
+        "segment": "smb",
+        "amountKRW": 280000000,
+        "agency": "중소벤처기업진흥공단",
+        "quality": 0.66
+      },
+      {
+        "domain": "ai",
+        "segment": "public",
+        "amountKRW": 340000000,
+        "agency": "정보통신산업진흥원",
+        "quality": 0.6
+      }
+    ],
+    "initialProjects": [
+      {
+        "title": "원격교육 콘텐츠 개발 2차",
+        "agency": "한국교육학술정보원",
+        "segment": "public",
+        "domain": [
+          "edu"
+        ],
+        "contractKRW": 600000000,
+        "totalQuarters": 3,
+        "quartersLeft": 2
+      },
+      {
+        "title": "중소기업 AI 도입 교육",
+        "agency": "중소벤처기업진흥공단",
+        "segment": "smb",
+        "domain": [
+          "edu",
+          "ai"
+        ],
+        "contractKRW": 300000000,
+        "totalQuarters": 2,
+        "quartersLeft": 1
+      }
+    ],
+    "brand": 40,
+    "morale": 66,
+    "techDebt": 25
+  },
+  {
+    "id": "generic",
+    "name": "가상 AX 기업 (범용 프로필)",
+    "description": "역량과 채널이 고르게 분포한 균형형 시작 프로필. 교육·게임 배포용이며 특정 강점이 없어 전략 선택의 영향이 더 크게 드러난다.",
+    "startPeriod": "2020Q1",
+    "cashKRW": 2500000000,
+    "staff": {
+      "principal": 1,
+      "senior": 3,
+      "mid": 7,
+      "junior": 5
+    },
+    "capability": {
+      "ai": 56,
+      "data": 56,
+      "si": 56,
+      "edu": 52,
+      "cloud": 50
+    },
+    "channel": {
+      "public": 42,
+      "enterprise": 34,
+      "global": 14,
+      "smb": 34
+    },
+    "certs": [
+      "swBusinessCert"
+    ],
+    "relations": {
+      "한국지능정보사회진흥원": 30,
+      "정보통신산업진흥원": 28,
+      "한국교육학술정보원": 24,
+      "한국산업인력공단": 22
+    },
+    "vendorRegistrations": [],
+    "trackRecords": [
+      {
+        "domain": "si",
+        "segment": "public",
+        "amountKRW": 700000000,
+        "agency": "한국지능정보사회진흥원",
+        "quality": 0.7
+      },
+      {
+        "domain": "ai",
+        "segment": "public",
+        "amountKRW": 450000000,
+        "agency": "정보통신산업진흥원",
+        "quality": 0.65
+      },
+      {
+        "domain": "data",
+        "segment": "enterprise",
+        "amountKRW": 380000000,
+        "agency": "국내 대형 제조사 A",
+        "quality": 0.68
+      },
+      {
+        "domain": "edu",
+        "segment": "public",
+        "amountKRW": 320000000,
+        "agency": "한국산업인력공단",
+        "quality": 0.66
+      }
+    ],
+    "initialProjects": [
+      {
+        "title": "공공 데이터 플랫폼 운영",
+        "agency": "한국지능정보사회진흥원",
+        "segment": "public",
+        "domain": [
+          "data",
+          "si"
+        ],
+        "contractKRW": 800000000,
+        "totalQuarters": 4,
+        "quartersLeft": 2
+      },
+      {
+        "title": "제조 데이터 분석 교육",
+        "agency": "국내 대형 제조사 A",
+        "segment": "enterprise",
+        "domain": [
+          "edu",
+          "data"
+        ],
+        "contractKRW": 400000000,
+        "totalQuarters": 2,
+        "quartersLeft": 1
+      }
+    ],
+    "brand": 40,
+    "morale": 66,
+    "techDebt": 26
+  }
+]

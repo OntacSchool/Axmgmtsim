@@ -1,0 +1,30 @@
+{
+  "totalTurns": 28,
+  "quarterlyCostByGrade": {
+    "principal": 42000000,
+    "senior": 30000000,
+    "mid": 21000000,
+    "junior": 14000000
+  },
+  "recruitCostByGrade": {
+    "principal": 60000000,
+    "senior": 35000000,
+    "mid": 20000000,
+    "junior": 10000000
+  },
+  "fixedOverheadKRW": 110000000,
+  "overheadRate": 0.22,
+  "proposalCostRate": 0.018,
+  "directCostRate": 0.08,
+  "maxDiscountRate": 0.2,
+  "bankruptcyCashKRW": -1000000000,
+  "bankruptcyQuarters": 3,
+  "certCostKRW": {
+    "swBusinessCert": 30000000,
+    "isms": 250000000,
+    "gsCert": 120000000,
+    "cmmi": 400000000,
+    "iso27001": 180000000
+  },
+  "certLeadQuarters": 2
+}

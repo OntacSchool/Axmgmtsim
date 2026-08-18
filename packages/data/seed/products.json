@@ -1,0 +1,26 @@
+[
+  {
+    "id": "P-LMS", "name": "공공형 학습관리 플랫폼", "domain": ["edu", "si"],
+    "rndToLaunchKRW": 1200000000, "arpuQuarterlyKRW": 18000000, "bidTechBonus": 0.06, "availableFrom": "2020Q1"
+  },
+  {
+    "id": "P-DATAOPS", "name": "데이터 구축·검수 자동화 플랫폼", "domain": ["data", "ai"],
+    "rndToLaunchKRW": 1500000000, "arpuQuarterlyKRW": 22000000, "bidTechBonus": 0.06, "availableFrom": "2021Q2"
+  },
+  {
+    "id": "P-AITUTOR", "name": "AI 튜터 엔진", "domain": ["ai", "edu"],
+    "rndToLaunchKRW": 2000000000, "arpuQuarterlyKRW": 26000000, "bidTechBonus": 0.08, "availableFrom": "2022Q1"
+  },
+  {
+    "id": "P-EDUANALYTICS", "name": "학습 분석 대시보드", "domain": ["data", "edu"],
+    "rndToLaunchKRW": 1600000000, "arpuQuarterlyKRW": 20000000, "bidTechBonus": 0.06, "availableFrom": "2023Q1"
+  },
+  {
+    "id": "P-AXCOPILOT", "name": "업무 AX 코파일럿", "domain": ["ai", "cloud"],
+    "rndToLaunchKRW": 3000000000, "arpuQuarterlyKRW": 34000000, "bidTechBonus": 0.10, "availableFrom": "2024Q1"
+  },
+  {
+    "id": "P-AIGOV", "name": "AI 거버넌스·안전성 진단 도구", "domain": ["ai", "cloud"],
+    "rndToLaunchKRW": 2200000000, "arpuQuarterlyKRW": 28000000, "bidTechBonus": 0.07, "availableFrom": "2025Q2"
+  }
+]

@@ -1,0 +1,149 @@
+[
+  {
+    "id": "T-PUB-01", "title": "공공사업본부장 (전 대형 SI 공공본부)", "availableFrom": "2020Q1", "grade": "principal",
+    "cost": { "signingKRW": 80000000, "quarterlyKRW": 48000000 },
+    "effects": {
+      "channel": { "public": 18 },
+      "relations": { "한국지능정보사회진흥원": 14, "정보통신산업진흥원": 12, "과학기술정보통신부": 10 },
+      "bidWinBonus": 0.04
+    },
+    "rampQuarters": 2, "attritionRisk": 0.06, "cultureFitSensitivity": 0.6
+  },
+  {
+    "id": "T-PUB-02", "title": "공공 제안 PM (제안서 전문)", "availableFrom": "2020Q1", "grade": "senior",
+    "cost": { "signingKRW": 35000000, "quarterlyKRW": 33000000 },
+    "effects": { "bidWinBonus": 0.05, "deliveryQuality": 0.03 },
+    "rampQuarters": 1, "attritionRisk": 0.09, "cultureFitSensitivity": 0.5
+  },
+  {
+    "id": "T-PUB-03", "title": "조달·계약 전문가", "availableFrom": "2020Q2", "grade": "senior",
+    "cost": { "signingKRW": 25000000, "quarterlyKRW": 28000000 },
+    "effects": { "channel": { "public": 9 }, "bidWinBonus": 0.02 },
+    "rampQuarters": 1, "attritionRisk": 0.07, "cultureFitSensitivity": 0.4
+  },
+  {
+    "id": "T-PUB-04", "title": "지자체 교육사업 전문가", "availableFrom": "2022Q1", "grade": "senior",
+    "cost": { "signingKRW": 30000000, "quarterlyKRW": 30000000 },
+    "effects": {
+      "channel": { "public": 8 },
+      "relations": { "서울특별시교육청": 20, "경기도교육청": 18, "교육부": 10 }
+    },
+    "rampQuarters": 2, "attritionRisk": 0.08, "cultureFitSensitivity": 0.5
+  },
+  {
+    "id": "T-ENT-01", "title": "대기업 영업총괄 (전 제조사 A 구매·IT)", "availableFrom": "2020Q3", "grade": "principal",
+    "cost": { "signingKRW": 110000000, "quarterlyKRW": 52000000 },
+    "effects": {
+      "channel": { "enterprise": 20 },
+      "relations": { "국내 대형 제조사 A": 25 },
+      "vendorRegistrations": ["제조사A-벤더"],
+      "bidWinBonus": 0.03
+    },
+    "rampQuarters": 2, "attritionRisk": 0.10, "cultureFitSensitivity": 0.7
+  },
+  {
+    "id": "T-ENT-02", "title": "금융권 세일즈 리드", "availableFrom": "2021Q2", "grade": "senior",
+    "cost": { "signingKRW": 70000000, "quarterlyKRW": 40000000 },
+    "effects": {
+      "channel": { "enterprise": 13 },
+      "relations": { "금융지주 B": 22 },
+      "vendorRegistrations": ["금융지주B-벤더"]
+    },
+    "rampQuarters": 2, "attritionRisk": 0.11, "cultureFitSensitivity": 0.7
+  },
+  {
+    "id": "T-ENT-03", "title": "제조 AX 컨설턴트", "availableFrom": "2024Q4", "grade": "principal",
+    "cost": { "signingKRW": 95000000, "quarterlyKRW": 50000000 },
+    "effects": { "channel": { "enterprise": 14 }, "capability": { "ai": 8, "data": 6 }, "bidWinBonus": 0.03 },
+    "rampQuarters": 2, "attritionRisk": 0.10, "cultureFitSensitivity": 0.6
+  },
+  {
+    "id": "T-GLB-01", "title": "글로벌 사업개발 총괄", "availableFrom": "2022Q2", "grade": "principal",
+    "cost": { "signingKRW": 120000000, "quarterlyKRW": 55000000 },
+    "effects": {
+      "channel": { "global": 22 },
+      "vendorRegistrations": ["글로벌파트너십"]
+    },
+    "rampQuarters": 3, "attritionRisk": 0.13, "cultureFitSensitivity": 0.8
+  },
+  {
+    "id": "T-GLB-02", "title": "ODA 사업 전문가", "availableFrom": "2023Q1", "grade": "senior",
+    "cost": { "signingKRW": 60000000, "quarterlyKRW": 36000000 },
+    "effects": {
+      "channel": { "global": 14 },
+      "relations": { "한국국제협력단": 24, "아시아개발은행": 15 },
+      "vendorRegistrations": ["글로벌파트너십"]
+    },
+    "rampQuarters": 3, "attritionRisk": 0.11, "cultureFitSensitivity": 0.7
+  },
+  {
+    "id": "T-AI-01", "title": "AI 리드 아키텍트", "availableFrom": "2020Q1", "grade": "principal",
+    "cost": { "signingKRW": 90000000, "quarterlyKRW": 50000000 },
+    "effects": { "capability": { "ai": 14, "data": 6 }, "deliveryQuality": 0.05 },
+    "rampQuarters": 2, "attritionRisk": 0.12, "cultureFitSensitivity": 0.8
+  },
+  {
+    "id": "T-AI-02", "title": "LLM 엔지니어링 리드", "availableFrom": "2023Q2", "grade": "principal",
+    "cost": { "signingKRW": 130000000, "quarterlyKRW": 58000000 },
+    "effects": { "capability": { "ai": 18 }, "deliveryQuality": 0.04, "bidWinBonus": 0.02 },
+    "rampQuarters": 2, "attritionRisk": 0.15, "cultureFitSensitivity": 0.85
+  },
+  {
+    "id": "T-AI-03", "title": "생성형 AI 프로덕트 리드", "availableFrom": "2024Q3", "grade": "principal",
+    "cost": { "signingKRW": 120000000, "quarterlyKRW": 56000000 },
+    "effects": { "capability": { "ai": 20 }, "bidWinBonus": 0.03 },
+    "rampQuarters": 2, "attritionRisk": 0.14, "cultureFitSensitivity": 0.8
+  },
+  {
+    "id": "T-DATA-01", "title": "데이터 플랫폼 리드", "availableFrom": "2020Q4", "grade": "senior",
+    "cost": { "signingKRW": 55000000, "quarterlyKRW": 36000000 },
+    "effects": { "capability": { "data": 15, "cloud": 5 }, "deliveryQuality": 0.03 },
+    "rampQuarters": 2, "attritionRisk": 0.10, "cultureFitSensitivity": 0.7
+  },
+  {
+    "id": "T-EDU-01", "title": "교육과정 총괄 (전 교육 공공기관)", "availableFrom": "2020Q2", "grade": "principal",
+    "cost": { "signingKRW": 70000000, "quarterlyKRW": 44000000 },
+    "effects": {
+      "capability": { "edu": 16 },
+      "relations": { "한국교육학술정보원": 20, "국가평생교육진흥원": 15, "한국산업인력공단": 12 },
+      "bidWinBonus": 0.02
+    },
+    "rampQuarters": 2, "attritionRisk": 0.06, "cultureFitSensitivity": 0.5
+  },
+  {
+    "id": "T-CLOUD-01", "title": "클라우드 아키텍트", "availableFrom": "2021Q1", "grade": "senior",
+    "cost": { "signingKRW": 60000000, "quarterlyKRW": 38000000 },
+    "effects": { "capability": { "cloud": 16 }, "deliveryQuality": 0.03 },
+    "rampQuarters": 2, "attritionRisk": 0.12, "cultureFitSensitivity": 0.75
+  },
+  {
+    "id": "T-SI-01", "title": "대형 SI 수행 PM", "availableFrom": "2020Q1", "grade": "principal",
+    "cost": { "signingKRW": 75000000, "quarterlyKRW": 46000000 },
+    "effects": { "capability": { "si": 14 }, "deliveryQuality": 0.06 },
+    "rampQuarters": 1, "attritionRisk": 0.07, "cultureFitSensitivity": 0.5
+  },
+  {
+    "id": "T-QA-01", "title": "품질관리 책임자", "availableFrom": "2021Q3", "grade": "senior",
+    "cost": { "signingKRW": 30000000, "quarterlyKRW": 30000000 },
+    "effects": { "deliveryQuality": 0.08 },
+    "rampQuarters": 1, "attritionRisk": 0.07, "cultureFitSensitivity": 0.5
+  },
+  {
+    "id": "T-OPS-01", "title": "인사·조직문화 총괄", "availableFrom": "2021Q1", "grade": "senior",
+    "cost": { "signingKRW": 40000000, "quarterlyKRW": 32000000 },
+    "effects": { "deliveryQuality": 0.02, "moraleDelta": 14 },
+    "rampQuarters": 1, "attritionRisk": 0.05, "cultureFitSensitivity": 0.3
+  },
+  {
+    "id": "T-MKT-01", "title": "마케팅 총괄 (B2B SaaS)", "availableFrom": "2022Q3", "grade": "senior",
+    "cost": { "signingKRW": 50000000, "quarterlyKRW": 34000000 },
+    "effects": { "channel": { "smb": 18, "enterprise": 5 } },
+    "rampQuarters": 2, "attritionRisk": 0.11, "cultureFitSensitivity": 0.7
+  },
+  {
+    "id": "T-SEC-01", "title": "보안 아키텍트 (ISMS 대응)", "availableFrom": "2022Q1", "grade": "senior",
+    "cost": { "signingKRW": 45000000, "quarterlyKRW": 35000000 },
+    "effects": { "capability": { "cloud": 9 }, "deliveryQuality": 0.03, "bidWinBonus": 0.01 },
+    "rampQuarters": 2, "attritionRisk": 0.09, "cultureFitSensitivity": 0.6
+  }
+]
