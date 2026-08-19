@@ -1,15 +1,20 @@
 import type { SimEvent, SimEventKind } from '@axsim/engine';
 
-const TONE: Partial<Record<SimEventKind, 'good' | 'bad' | 'warn'>> = {
-  'bid.won': 'good',
-  'bid.lost': 'bad',
-  'bid.blocked': 'warn',
-  'project.completed': 'good',
-  'hire.left': 'bad',
-  'acquire.done': 'good',
-  'cert.acquired': 'good',
-  'company.bankrupt': 'bad',
+const STYLE: Partial<Record<SimEventKind, { icon: string; color: string; bg: string }>> = {
+  'bid.won': { icon: '🏆', color: 'var(--game-win)', bg: 'var(--game-win-bg)' },
+  'bid.lost': { icon: '📉', color: 'var(--text-dim)', bg: 'var(--chart-grid)' },
+  'bid.blocked': { icon: '🔒', color: 'var(--game-gold)', bg: 'var(--game-gold-bg)' },
+  'project.completed': { icon: '✅', color: 'var(--game-win)', bg: 'var(--game-win-bg)' },
+  'hire.joined': { icon: '🙌', color: 'var(--game-info)', bg: 'var(--game-info-bg)' },
+  'hire.left': { icon: '👋', color: 'var(--bad)', bg: 'var(--game-danger-bg)' },
+  'acquire.done': { icon: '🤝', color: 'var(--game-win)', bg: 'var(--game-win-bg)' },
+  'acquire.integrated': { icon: '🏢', color: 'var(--game-info)', bg: 'var(--game-info-bg)' },
+  'product.launched': { icon: '🚀', color: 'var(--game-win)', bg: 'var(--game-win-bg)' },
+  'cert.acquired': { icon: '📜', color: 'var(--game-gold)', bg: 'var(--game-gold-bg)' },
+  'company.bankrupt': { icon: '💥', color: 'var(--bad)', bg: 'var(--game-danger-bg)' },
 };
+
+const DEFAULT_STYLE = { icon: '📋', color: 'var(--text-dim)', bg: 'var(--chart-grid)' };
 
 export function EventLog({ events }: { events: SimEvent[] }) {
   if (events.length === 0) {
@@ -17,21 +22,27 @@ export function EventLog({ events }: { events: SimEvent[] }) {
   }
 
   return (
-    <ul style={{ listStyle: 'none', margin: 0, padding: 0, display: 'flex', flexDirection: 'column', gap: 6 }}>
+    <ul style={{ listStyle: 'none', margin: 0, padding: 0, display: 'flex', flexDirection: 'column', gap: 8 }}>
       {events.map((e, i) => {
-        const tone = TONE[e.kind];
+        const s = STYLE[e.kind] ?? DEFAULT_STYLE;
         return (
           <li
             key={i}
+            className="game-slide-down"
             style={{
+              display: 'flex',
+              alignItems: 'center',
+              gap: 10,
               fontSize: 13,
-              padding: '6px 10px',
-              borderLeft: `3px solid ${tone ? `var(--${tone})` : 'var(--border)'}`,
-              background: 'var(--surface-2)',
-              borderRadius: 4,
+              padding: '8px 12px',
+              background: s.bg,
+              borderRadius: 10,
+              animationDelay: `${i * 60}ms`,
+              animationFillMode: 'backwards',
             }}
           >
-            {e.message}
+            <span style={{ fontSize: 17, flexShrink: 0 }}>{s.icon}</span>
+            <span style={{ color: 'var(--text)' }}>{e.message}</span>
           </li>
         );
       })}

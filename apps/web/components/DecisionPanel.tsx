@@ -20,7 +20,7 @@ const CERTS = ['swBusinessCert', 'isms', 'gsCert', 'cmmi', 'iso27001'] as const;
 
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
   return (
-    <div className="card" style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
+    <div className="game-card" style={{ padding: 16, display: 'flex', flexDirection: 'column', gap: 10 }}>
       <h4 style={{ margin: 0, fontSize: 14 }}>{title}</h4>
       {children}
     </div>
@@ -30,16 +30,14 @@ function Section({ title, children }: { title: string; children: React.ReactNode
 function Btn({ onClick, disabled, children }: { onClick: () => void; disabled?: boolean; children: React.ReactNode }) {
   return (
     <button
+      className="game-btn"
       onClick={onClick}
       disabled={disabled}
       style={{
         background: disabled ? 'var(--surface-2)' : 'var(--accent)',
         color: disabled ? 'var(--text-faint)' : '#fff',
-        border: 'none',
-        borderRadius: 6,
         padding: '5px 12px',
         fontSize: 12,
-        cursor: disabled ? 'not-allowed' : 'pointer',
       }}
     >
       {children}
@@ -58,7 +56,7 @@ function HireSection({
 }) {
   if (talents.length === 0) return null;
   return (
-    <Section title="영입 가능 인재">
+    <Section title="🙌 영입 가능 인재">
       <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
         {talents.map((t) => {
           const already = state.hires.some((h) => h.talentId === t.id && h.active);
@@ -71,9 +69,15 @@ function HireSection({
                   계약금 {eok(t.cost.signingKRW)} · 분기 {eok(t.cost.quarterlyKRW)} · 발현 {t.rampQuarters}Q
                 </div>
               </div>
-              <Btn disabled={already || !affordable} onClick={() => onAdd({ type: 'hire', talentId: t.id })}>
-                {already ? '영입됨' : '영입'}
-              </Btn>
+              {already ? (
+                <span className="game-chip" style={{ background: 'var(--game-win-bg)', color: 'var(--game-win)' }}>
+                  ✓ 영입됨
+                </span>
+              ) : (
+                <Btn disabled={!affordable} onClick={() => onAdd({ type: 'hire', talentId: t.id })}>
+                  영입
+                </Btn>
+              )}
             </div>
           );
         })}
@@ -95,7 +99,7 @@ function AcquireSection({
   const capacity = debtCapacity(state);
 
   return (
-    <Section title="인수 가능 대상">
+    <Section title="🤝 인수 가능 대상">
       <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
         {targets.map((t) => {
           const owned = state.acquisitions.some((a) => a.targetId === t.id);
@@ -113,7 +117,9 @@ function AcquireSection({
               </div>
               <div style={{ display: 'flex', gap: 6, marginTop: 4 }}>
                 {owned ? (
-                  <span style={{ fontSize: 12, color: 'var(--text-faint)' }}>이미 인수함</span>
+                  <span className="game-chip" style={{ background: 'var(--game-win-bg)', color: 'var(--game-win)' }}>
+                    ✓ 인수 완료
+                  </span>
                 ) : best ? (
                   <Btn onClick={() => onAdd({ type: 'acquire', targetId: t.id, financing: best.f })}>
                     인수 ({best.f === 'cash' ? '현금' : best.f === 'debt' ? '전액차입' : '절반차입'})
@@ -141,7 +147,7 @@ function InvestSection({ state, onAdd }: { state: CompanyState; onAdd: (d: Decis
   const E = 100_000_000;
 
   return (
-    <Section title="투자">
+    <Section title="💡 투자">
       <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
         <div style={{ display: 'flex', gap: 6, alignItems: 'center', fontSize: 12 }}>
           <span style={{ width: 60 }}>영업</span>
@@ -210,7 +216,7 @@ function RndSection({ products, state, onAdd }: { products: Product[]; state: Co
   if (undone.length === 0) return null;
 
   return (
-    <Section title="제품 R&D">
+    <Section title="🔬 제품 R&D">
       <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
         {undone.map((p) => {
           const invested = state.products.find((s) => s.productId === p.id)?.rndInvestedKRW ?? 0;
@@ -250,7 +256,7 @@ function StaffSection({ state, onAdd }: { state: CompanyState; onAdd: (d: Decisi
   const [counts, setCounts] = useState<Record<string, number>>({});
 
   return (
-    <Section title="채용 / 감원">
+    <Section title="👥 채용 / 감원">
       <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
         {GRADES.map((g) => (
           <div key={g} style={{ display: 'flex', gap: 6, alignItems: 'center', fontSize: 12 }}>

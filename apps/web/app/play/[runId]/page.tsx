@@ -12,26 +12,26 @@ import {
 import { getDataset } from '../../../lib/dataset';
 import { useRun } from '../../../lib/useRun';
 import { StateHeader } from '../../../components/StateHeader';
-import { DealTable } from '../../../components/DealTable';
+import { DealCards } from '../../../components/DealCards';
 import { DecisionPanel } from '../../../components/DecisionPanel';
 import { EventLog } from '../../../components/EventLog';
 
 function describeDecision(d: Decision): string {
   switch (d.type) {
     case 'bid':
-      return `입찰: ${d.dealId} (할인 ${(d.discountRate * 100).toFixed(0)}%${d.consortium ? ', 컨소시엄' : ''})`;
+      return `🎯 입찰: ${d.dealId} (할인 ${(d.discountRate * 100).toFixed(0)}%${d.consortium ? ', 컨소시엄' : ''})`;
     case 'hire':
-      return `영입: ${d.talentId}`;
+      return `🙌 영입: ${d.talentId}`;
     case 'acquire':
-      return `인수: ${d.targetId} (${d.financing})`;
+      return `🤝 인수: ${d.targetId} (${d.financing})`;
     case 'invest':
-      return `투자: ${d.target}${d.cert ? ` ${d.cert}` : ''}${d.amountKRW ? ` ${(d.amountKRW / 1e8).toFixed(1)}억` : ''}`;
+      return `💡 투자: ${d.target}${d.cert ? ` ${d.cert}` : ''}${d.amountKRW ? ` ${(d.amountKRW / 1e8).toFixed(1)}억` : ''}`;
     case 'rnd':
-      return `R&D: ${d.productId} ${(d.amountKRW / 1e8).toFixed(1)}억`;
+      return `🔬 R&D: ${d.productId} ${(d.amountKRW / 1e8).toFixed(1)}억`;
     case 'recruit':
-      return `채용: ${d.grade} ${d.count}명`;
+      return `👥 채용: ${d.grade} ${d.count}명`;
     case 'layoff':
-      return `감원: ${d.grade} ${d.count}명`;
+      return `📤 감원: ${d.grade} ${d.count}명`;
     default:
       return '';
   }
@@ -88,6 +88,7 @@ export default function PlayPage({ params }: { params: Promise<{ runId: string }
   }
 
   const finished = state.bankrupt || state.turn >= dataset.config.totalTurns;
+  const wonThisTurn = lastResult?.events.some((e) => e.kind === 'bid.won') ?? false;
 
   return (
     <main className="container" style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
@@ -106,27 +107,38 @@ export default function PlayPage({ params }: { params: Promise<{ runId: string }
         </div>
       )}
 
-      <StateHeader state={state} />
+      <div key={state.turn} className="game-pop">
+        <StateHeader state={state} />
+      </div>
 
       {lastResult && lastResult.events.length > 0 && (
-        <div className="card">
-          <h4 style={{ marginTop: 0, fontSize: 14 }}>지난 분기 이벤트</h4>
+        <div
+          key={`events-${state.turn}`}
+          className="game-card game-pop"
+          style={{
+            padding: 16,
+            borderColor: wonThisTurn ? 'var(--game-win)' : undefined,
+            boxShadow: wonThisTurn ? '0 0 0 2px var(--game-win-bg)' : undefined,
+          }}
+        >
+          <h4 style={{ marginTop: 0, fontSize: 14 }}>{wonThisTurn ? '🎉 지난 분기 결과' : '📋 지난 분기 결과'}</h4>
           <EventLog events={lastResult.events} />
         </div>
       )}
 
       {finished ? (
-        <div className="card" style={{ textAlign: 'center', padding: 32 }}>
-          <h3>{state.bankrupt ? '파산으로 종료' : '28분기 완주'}</h3>
-          <Link href={`/dashboard/${runId}`} style={{ color: 'var(--accent)' }}>
+        <div className="game-card game-pop" style={{ textAlign: 'center', padding: 40 }}>
+          <div style={{ fontSize: 40, marginBottom: 8 }}>{state.bankrupt ? '💥' : '🏁'}</div>
+          <h3 style={{ margin: '0 0 8px' }}>{state.bankrupt ? '파산으로 종료' : '28분기 완주'}</h3>
+          <Link href={`/dashboard/${runId}`} style={{ color: 'var(--accent)', fontWeight: 600 }}>
             대시보드에서 결과 보기 →
           </Link>
         </div>
       ) : (
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 320px', gap: 16, alignItems: 'start' }}>
-          <div className="card">
-            <h4 style={{ marginTop: 0, fontSize: 14 }}>공고 사업</h4>
-            <DealTable
+          <div className="game-card" style={{ padding: 16 }}>
+            <h4 style={{ marginTop: 0, fontSize: 14 }}>📣 공고 사업</h4>
+            <DealCards
               deals={deals}
               state={state}
               launchedProducts={launchedProducts}
@@ -145,18 +157,30 @@ export default function PlayPage({ params }: { params: Promise<{ runId: string }
               onAdd={(d) => setStaged((prev) => [...prev, d])}
             />
 
-            <div className="card">
-              <h4 style={{ marginTop: 0, fontSize: 14 }}>이번 분기 결정 ({staged.length})</h4>
+            <div className="game-card" style={{ padding: 16, position: 'sticky', top: 16 }}>
+              <h4 style={{ marginTop: 0, fontSize: 14 }}>🗂️ 이번 분기 결정 ({staged.length})</h4>
               {staged.length === 0 ? (
                 <p style={{ fontSize: 12, color: 'var(--text-faint)' }}>담긴 결정이 없습니다.</p>
               ) : (
-                <ul style={{ listStyle: 'none', margin: 0, padding: 0, display: 'flex', flexDirection: 'column', gap: 4 }}>
+                <ul style={{ listStyle: 'none', margin: 0, padding: 0, display: 'flex', flexDirection: 'column', gap: 6 }}>
                   {staged.map((d, i) => (
-                    <li key={i} style={{ fontSize: 12, display: 'flex', justifyContent: 'space-between', gap: 6 }}>
+                    <li
+                      key={i}
+                      className="game-pop"
+                      style={{
+                        fontSize: 12,
+                        display: 'flex',
+                        justifyContent: 'space-between',
+                        gap: 6,
+                        background: 'var(--chart-grid)',
+                        borderRadius: 8,
+                        padding: '6px 10px',
+                      }}
+                    >
                       <span>{describeDecision(d)}</span>
                       <button
                         onClick={() => setStaged((prev) => prev.filter((_, j) => j !== i))}
-                        style={{ background: 'none', border: 'none', color: 'var(--bad)', fontSize: 12 }}
+                        style={{ background: 'none', border: 'none', color: 'var(--bad)', fontSize: 12, cursor: 'pointer' }}
                       >
                         취소
                       </button>
@@ -165,6 +189,7 @@ export default function PlayPage({ params }: { params: Promise<{ runId: string }
                 </ul>
               )}
               <button
+                className="game-btn"
                 onClick={() => {
                   submitTurn(staged.length > 0 ? staged : [{ type: 'pass' }]);
                   setStaged([]);
@@ -172,16 +197,13 @@ export default function PlayPage({ params }: { params: Promise<{ runId: string }
                 style={{
                   marginTop: 12,
                   width: '100%',
-                  background: 'var(--good)',
-                  color: '#0b0d10',
-                  border: 'none',
-                  borderRadius: 6,
-                  padding: '8px 0',
-                  fontWeight: 600,
-                  fontSize: 13,
+                  background: 'linear-gradient(135deg, var(--game-win), #16a34a)',
+                  color: '#fff',
+                  padding: '12px 0',
+                  fontSize: 14,
                 }}
               >
-                다음 분기로 →
+                ▶ 다음 분기로
               </button>
             </div>
           </div>
