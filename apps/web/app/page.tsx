@@ -56,7 +56,7 @@ export default function HomePage() {
 
       <div className="card" style={{ display: 'flex', flexDirection: 'column', gap: 12, maxWidth: 520 }}>
         <h3 style={{ margin: 0 }}>새 판 시작</h3>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: 8 }}>
+        <div className="profile-grid">
           {dataset.profiles.map((p) => (
             <button
               key={p.id}

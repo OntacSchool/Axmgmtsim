@@ -90,8 +90,16 @@ export default function PlayPage({ params }: { params: Promise<{ runId: string }
   const finished = state.bankrupt || state.turn >= dataset.config.totalTurns;
   const wonThisTurn = lastResult?.events.some((e) => e.kind === 'bid.won') ?? false;
 
+  const handleAdvance = () => {
+    submitTurn(staged.length > 0 ? staged : [{ type: 'pass' }]);
+    setStaged([]);
+  };
+
   return (
-    <main className="container" style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
+    <main
+      className={`container ${!finished ? 'container--play' : ''}`}
+      style={{ display: 'flex', flexDirection: 'column', gap: 16 }}
+    >
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline' }}>
         <Link href="/" style={{ fontSize: 13, color: 'var(--text-dim)' }}>
           ← 홈
@@ -135,7 +143,7 @@ export default function PlayPage({ params }: { params: Promise<{ runId: string }
           </Link>
         </div>
       ) : (
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 320px', gap: 16, alignItems: 'start' }}>
+        <div className="play-grid">
           <div className="game-card" style={{ padding: 16 }}>
             <h4 style={{ marginTop: 0, fontSize: 14 }}>📣 공고 사업</h4>
             <DealCards
@@ -190,10 +198,7 @@ export default function PlayPage({ params }: { params: Promise<{ runId: string }
               )}
               <button
                 className="game-btn"
-                onClick={() => {
-                  submitTurn(staged.length > 0 ? staged : [{ type: 'pass' }]);
-                  setStaged([]);
-                }}
+                onClick={handleAdvance}
                 style={{
                   marginTop: 12,
                   width: '100%',
@@ -207,6 +212,26 @@ export default function PlayPage({ params }: { params: Promise<{ runId: string }
               </button>
             </div>
           </div>
+        </div>
+      )}
+
+      {!finished && (
+        <div className="mobile-action-bar">
+          <span style={{ fontSize: 13, color: 'var(--text-dim)', flex: 1 }}>
+            🗂️ {staged.length}개 담김
+          </span>
+          <button
+            className="game-btn"
+            onClick={handleAdvance}
+            style={{
+              background: 'linear-gradient(135deg, var(--game-win), #16a34a)',
+              color: '#fff',
+              padding: '10px 22px',
+              fontSize: 14,
+            }}
+          >
+            ▶ 다음 분기로
+          </button>
         </div>
       )}
     </main>

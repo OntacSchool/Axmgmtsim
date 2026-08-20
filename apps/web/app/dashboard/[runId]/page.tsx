@@ -82,7 +82,7 @@ export default function DashboardPage({ params }: { params: Promise<{ runId: str
         <TurnTimeline history={state.history} />
       </div>
 
-      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 20 }}>
+      <div className="dash-split">
         <div className="card">
           <h3 style={{ marginTop: 0 }}>세그먼트별 수주 규모</h3>
           <SegmentBreakdown state={state} />

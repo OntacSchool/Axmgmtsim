@@ -246,3 +246,81 @@ table {
   font-weight: 800;
   font-family: var(--font-mono);
 }
+
+/* ─────────────────────────────────────────────────────────
+   모바일 레이아웃
+   기본(모바일)은 세로 1컬럼, min-width 미디어쿼리로 데스크톱에서 확장한다
+   (모바일 퍼스트) — 데스크톱 전용 코드를 따로 만들지 않고 CSS 로만 갈린다.
+   ───────────────────────────────────────────────────────── */
+
+.profile-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8px;
+}
+@media (min-width: 480px) {
+  .profile-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+.dash-split {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+@media (min-width: 720px) {
+  .dash-split { grid-template-columns: 1fr 1fr; }
+}
+
+.play-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+@media (min-width: 900px) {
+  .play-grid {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    gap: 16px;
+    align-items: start;
+  }
+}
+
+/* 모바일에서 하단 고정 액션바가 콘텐츠를 가리지 않도록 여백 확보 */
+@media (max-width: 899px) {
+  .container--play {
+    padding-bottom: 84px;
+  }
+}
+
+.mobile-action-bar {
+  display: none;
+}
+@media (max-width: 899px) {
+  .mobile-action-bar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 40;
+    padding: 10px 16px calc(10px + env(safe-area-inset-bottom, 0px));
+    background: var(--surface);
+    border-top: 1px solid var(--border);
+    box-shadow: 0 -6px 20px rgba(0, 0, 0, 0.12);
+  }
+}
+
+/* 터치 타깃 — 좁은 화면에서는 버튼을 더 크게 (최소 40px 높이 권장) */
+@media (max-width: 640px) {
+  .container {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .game-btn {
+    min-height: 40px;
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+}
